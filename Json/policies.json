@@ -1,0 +1,1739 @@
+[
+  {
+    "Id": "64cceef9-3a01-49ae-a23b-3761b604800b",
+    "AmountInsured": 1825.89,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-06-01T03:33:32Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "7b624ed3-00d5-4c1b-9ab8-c265067ef58b",
+    "AmountInsured": 399.89,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-07-06T06:55:49Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "56b415d6-53ee-4481-994f-4bffa47b5239",
+    "AmountInsured": 2301.98,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-12-01T05:53:13Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "6f514ec4-1726-4628-974d-20afe4da130c",
+    "AmountInsured": 697.04,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-09-12T12:10:23Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "25202f31-fff0-481c-acfd-1f3ff2a9bcbe",
+    "AmountInsured": 2579.16,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-05-03T04:58:48Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "15b4430d-96f8-468e-98c0-3caaf8b0b3b6",
+    "AmountInsured": 645.65,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-01-15T02:56:48Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "5a72ae47-d077-4f74-9166-56a6577e31b9",
+    "AmountInsured": 751.67,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-08-05T04:05:01Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "4a582500-fab6-4efe-ae89-0c9ed750d0c7",
+    "AmountInsured": 3074.24,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-06-24T09:21:06Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "3a774f4e-0e70-488f-ac9f-ee211c8d5ece",
+    "AmountInsured": 1930.01,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-10-01T09:19:32Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "d973993a-d35e-4d12-abb5-38083d556101",
+    "AmountInsured": 1609.4,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-01-31T03:52:33Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "0eba1179-6155-41b5-bdd8-f80e1ac94cab",
+    "AmountInsured": 1629.72,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-05-03T01:53:34Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "cd63a392-0a8c-4c48-9cbe-e0a991d65c13",
+    "AmountInsured": 804.87,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-02-13T04:21:59Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "5d6b141e-0d22-4a84-abdb-6200ddaad7d0",
+    "AmountInsured": 1919.66,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-11-02T09:16:22Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "35a0d2f7-37cd-4c21-8dac-fe91b29bd22b",
+    "AmountInsured": 3878.41,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-02-20T04:13:21Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "1c6180b9-78b4-464d-b488-1efe9cdf84b1",
+    "AmountInsured": 712.58,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-05-15T08:10:51Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "3e00473f-3cbe-42ff-81a7-1d85c88e65ff",
+    "AmountInsured": 3817.99,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-11-02T10:10:01Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "8a53d72e-c802-42ae-849b-11c6cf550a0d",
+    "AmountInsured": 364.82,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-06-24T12:50:38Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "788307fa-d261-4a9f-8d30-65fc3375617e",
+    "AmountInsured": 1984.56,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-09-12T04:28:09Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "54d8fc4a-eefd-4d4f-bfeb-29381e289860",
+    "AmountInsured": 3514.89,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-12-30T08:55:23Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "033ba8cd-e2e2-47c8-8963-dde166dec736",
+    "AmountInsured": 1716.52,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-03-04T12:42:55Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "1547bd8a-0258-44ff-a6b7-88abcc3463e5",
+    "AmountInsured": 454.11,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-03-17T10:15:22Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "7127398d-55b7-4e80-a336-40530078656b",
+    "AmountInsured": 1736.14,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-08-06T09:30:12Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "fd1e7944-56e2-42c9-896f-d9b4e4f4392c",
+    "AmountInsured": 2769.91,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-11-06T12:04:06Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "24459576-7c2f-4ccd-bc27-19e1920bbd03",
+    "AmountInsured": 3112.8,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-02-17T08:21:06Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "f64e92fc-634f-48d2-87e7-bc6a8e3e4978",
+    "AmountInsured": 3177.46,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-05-20T06:21:10Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "85515a6a-686f-45ad-b173-3d44a28856e5",
+    "AmountInsured": 788.92,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-06-05T03:15:35Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "4a22fc14-22e4-4b78-b458-4b014f14c2e3",
+    "AmountInsured": 3722.64,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-05-15T10:19:58Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "bd640161-19de-4b27-ba61-4974fe027b08",
+    "AmountInsured": 1897.13,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-09-14T02:32:33Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "26e1ea4c-1e0c-4f84-94cb-5ce309399d37",
+    "AmountInsured": 3421.38,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-05-19T04:42:42Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "79c689f3-053a-459b-8c88-32a699817097",
+    "AmountInsured": 437.43,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-05-17T09:29:00Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "be4bf877-5a72-4ae2-b8f5-3c79e21fc829",
+    "AmountInsured": 3235.96,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-09-22T03:08:08Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "19d4fa60-6361-424c-bb15-e81d439b3244",
+    "AmountInsured": 3313.59,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-01-12T04:35:00Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "f2ba5655-7335-4316-96ec-0ce56dda8cb2",
+    "AmountInsured": 1375.68,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-12-01T06:09:12Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "749d9631-cc1b-4da0-9280-c604b066ed47",
+    "AmountInsured": 1692.41,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-12-19T03:14:40Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "d46f642a-cef5-4dd7-9924-d1867b268a97",
+    "AmountInsured": 1790.76,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-09-13T04:51:38Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "ed67ef06-fe03-4f65-8243-443fb4fccda7",
+    "AmountInsured": 3319.97,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-07-26T12:50:33Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "378e9653-ed71-4961-b8ad-f62900a8650c",
+    "AmountInsured": 3634.11,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-01-01T07:24:54Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "569d6f59-fec7-48f4-8851-976304cc6b0a",
+    "AmountInsured": 2282.59,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-01-24T06:54:39Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "2f367b0e-2fc9-4aca-b4bc-ecdcd0000a0d",
+    "AmountInsured": 2185.71,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-09-05T03:26:53Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "e3a67b32-57ea-4874-afb7-2a11cb3cf975",
+    "AmountInsured": 3220.16,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-03-07T12:37:54Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "68edd99b-b99f-4270-a9df-c4e390c63357",
+    "AmountInsured": 1606.17,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-01-25T09:21:39Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "c0b7918c-5077-4c1b-adf5-b8e8bec4aa5d",
+    "AmountInsured": 645.65,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-01-26T10:25:57Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "86cf1a7a-f6e9-4049-a096-e93bc7c1b84f",
+    "AmountInsured": 1852.23,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-05-14T10:00:25Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "6661fe7b-213e-4547-8698-2d8fac88c42c",
+    "AmountInsured": 3280.97,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-02-08T10:58:55Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "6305aa29-c423-4abf-82e0-0fdfb958b9c6",
+    "AmountInsured": 2172.69,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-10-21T03:39:50Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "e8ed8ab0-b3a7-4883-b351-e4ffda286dec",
+    "AmountInsured": 982.12,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-04-15T12:15:35Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "aefe877f-161b-4a9a-9688-8a4e1d559939",
+    "AmountInsured": 836.95,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-03-17T05:19:36Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "52b0b0c4-9fb4-411a-b553-0ee6d7a4201c",
+    "AmountInsured": 2246.33,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-03-09T08:41:47Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "6fbe8786-0bd4-42a9-9a27-d17e616cf76a",
+    "AmountInsured": 3262.68,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-05-06T08:42:50Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "275b3663-70f0-43e7-9c1b-b8d849ee2bc5",
+    "AmountInsured": 2673.5,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-07-02T06:05:45Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "150c29d4-bc9b-4e4f-87f2-1644aa2c2c2c",
+    "AmountInsured": 3972.51,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-04-07T11:13:41Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "249957c7-530d-4aa3-babf-a8a8d01c5f5d",
+    "AmountInsured": 900.82,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-02-10T09:12:19Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "3e7b8b10-c3ee-4002-9b02-a91355c41d37",
+    "AmountInsured": 2828.83,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-08-28T04:59:32Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "12028880-46e4-4dfa-ae10-68ae2786c281",
+    "AmountInsured": 1480.88,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-02-10T11:55:34Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "f49771fe-c330-4847-b8ea-6b55a511447e",
+    "AmountInsured": 2622.07,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-12-27T05:44:36Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "92d15c67-e71b-44ed-9531-eb1afe19dfce",
+    "AmountInsured": 1787.7,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-08-29T10:38:42Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "baa66e18-5308-4064-a4ff-51572f220b2e",
+    "AmountInsured": 2684.33,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-08-23T03:12:51Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "1a6a9771-bfe8-4ad0-b672-2b1873b15331",
+    "AmountInsured": 3110.29,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-03-03T07:58:26Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "f7058bad-4787-426f-9ef3-f4652ea9d582",
+    "AmountInsured": 311.47,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-03-24T04:18:30Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "6bda2f7a-a5ce-4079-8a38-5a2f199f63e9",
+    "AmountInsured": 2599.26,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-06-25T10:00:11Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "79b3661d-ce1c-4b03-8f26-3dd6d70f6464",
+    "AmountInsured": 1347.02,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-02-26T11:10:28Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "590643d9-719d-4f69-8902-425cd8714e69",
+    "AmountInsured": 2204.88,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-06-30T04:13:56Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "e6e247bd-a632-45ea-8b26-4554548f3fa4",
+    "AmountInsured": 3335.89,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-08-07T06:28:33Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "036218ed-eb8f-4838-8e73-0392c4f15802",
+    "AmountInsured": 1307.13,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-01-04T12:53:56Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "74114190-6ad5-4a5d-a699-c488c1675376",
+    "AmountInsured": 1777.33,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-09-09T09:50:06Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "487d63c0-e3bd-4507-b5f6-b52d397c7661",
+    "AmountInsured": 239.68,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-12-16T07:21:05Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "c73ab90b-7db2-4a17-a291-32eb6f762204",
+    "AmountInsured": 324.3,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-09-08T07:10:31Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "84d2812f-49be-4a71-8ea8-f24759528a6f",
+    "AmountInsured": 212.84,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-10-21T01:38:01Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "cba07eb3-8264-4391-9dcb-f00495039ff8",
+    "AmountInsured": 1608.55,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-11-12T10:50:26Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "739b369b-9f0d-453d-b71e-5699d09b9627",
+    "AmountInsured": 1250.43,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-06-19T05:11:09Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "53380f30-2bc1-432d-b350-4c889582ff44",
+    "AmountInsured": 1443.94,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-01-21T04:19:07Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "450ae194-8770-473a-be79-d4a02aa4905c",
+    "AmountInsured": 3612.57,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-08-23T03:31:21Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "f5d0a83d-1d5d-445b-bbfa-a027319959fc",
+    "AmountInsured": 314.77,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-01-24T04:48:51Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "ad0c934b-2e21-4eee-945e-f6ca0f93d84c",
+    "AmountInsured": 1680.79,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-08-02T10:09:21Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "400cb6ac-f5a3-4620-8845-459ed5eedca9",
+    "AmountInsured": 2394.88,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-06-06T09:27:20Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "c27cb289-0f0e-4e82-a729-13fb84d6b46b",
+    "AmountInsured": 1787.58,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-03-18T06:34:29Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "62a8a8bd-7d54-4f53-bda1-5004d95c6316",
+    "AmountInsured": 3547.4,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-01-08T03:13:02Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "bb79bc43-feb2-41dd-b958-c681379423c6",
+    "AmountInsured": 1925.23,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-08-21T07:51:21Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "8a5ce0e5-8532-409a-a020-b17acbe849d4",
+    "AmountInsured": 654.99,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-09-25T08:31:47Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "06f2e6cd-9b7e-45f5-8c83-b9c04cc15302",
+    "AmountInsured": 1557.44,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-02-08T04:36:57Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "bdea9821-960a-4aee-a1d3-ab20472a67c9",
+    "AmountInsured": 2240.09,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-07-09T06:34:28Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "3b416a52-fc0a-4919-b799-735026af7274",
+    "AmountInsured": 274.37,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-09-23T02:58:03Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "d476d9ff-fbb7-4455-85d6-2307ae8988a0",
+    "AmountInsured": 3315.4,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-07-02T09:22:19Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "516799d2-6398-4854-b853-38ad49869985",
+    "AmountInsured": 1305.27,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-03-11T04:00:04Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "d099fba2-3d40-41ca-96e6-a9aece1045c0",
+    "AmountInsured": 3829.23,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-12-02T07:30:33Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "fc6b9b8a-a58d-47d7-9a53-690d71195c01",
+    "AmountInsured": 945.05,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-09-01T01:44:40Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "577223e8-9be4-486e-99cc-03ebe36f207a",
+    "AmountInsured": 3551.04,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-06-04T05:14:51Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "aad8e03a-4f1c-4c79-9a2b-f9a95b803e6a",
+    "AmountInsured": 1661.26,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-01-26T07:00:09Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "b93af73a-fdcc-4501-9779-d782f3a1ad98",
+    "AmountInsured": 2735.84,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-05-18T04:40:02Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "2f8233d0-1792-4ecf-9017-306b8ae4eb42",
+    "AmountInsured": 1193.19,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-05-18T04:27:54Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "02ab1bc2-6e42-40b4-b7db-f3d3864beb5a",
+    "AmountInsured": 1167.91,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-07-25T11:31:47Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "3c42ae29-2854-4074-9e22-360789d552fc",
+    "AmountInsured": 1171.14,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-12-16T06:28:54Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "4f744ead-f4ff-498e-9d5f-fd6819cd4c77",
+    "AmountInsured": 3860.22,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-04-29T11:41:20Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "5a0618f0-d4ef-45ca-ae99-23efc7d92a1a",
+    "AmountInsured": 3714.13,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-03-29T09:10:35Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "cd1c00a4-f1d1-4429-af8b-10dcf818f616",
+    "AmountInsured": 2690.18,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-05-20T05:45:32Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "704d7042-4808-4d2e-ba15-46ded11bee5f",
+    "AmountInsured": 1033.35,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-02-03T11:11:52Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "0e1cc872-0ca8-4bc0-ad4a-431b4df88289",
+    "AmountInsured": 2952.32,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-07-14T10:51:33Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "a95cc511-6ce2-42a9-9bfc-0e9dff677878",
+    "AmountInsured": 862.57,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-10-02T02:59:43Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "b8d6ecde-aa4c-40ae-987a-a887543cbb8a",
+    "AmountInsured": 1575.73,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-04-12T12:02:20Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "cf3f9f20-0b88-4daa-9e79-54d8026c8cdd",
+    "AmountInsured": 2764.76,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-03-06T07:04:53Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "e7eb8fd6-7b09-4802-99ee-df66e6e4c268",
+    "AmountInsured": 1040.55,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-01-25T10:49:26Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "57492c2b-c29c-4644-b557-feeeaa2bcafc",
+    "AmountInsured": 1153.25,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-07-11T08:09:32Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "110c70d7-6820-41ab-b5ad-cb87360fe70a",
+    "AmountInsured": 1820.71,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-09-22T08:19:38Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "780a0f14-203f-4ce7-a416-11cffed8612a",
+    "AmountInsured": 2932.16,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-11-05T08:23:41Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "9ceae17e-25e8-45c7-813b-568af4d0c080",
+    "AmountInsured": 681.48,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-04-28T10:35:25Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "4962c4b9-01cc-4cd3-a6c7-0e7b40b55b00",
+    "AmountInsured": 3363.29,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-07-29T08:18:33Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "183f3153-4be4-4441-9cb3-abb55c042d23",
+    "AmountInsured": 3896.56,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-11-11T08:34:34Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "2b810027-a999-437e-ad79-e09ac5f0968b",
+    "AmountInsured": 1620.8,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-03-24T10:39:32Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "cfb902f5-b8ce-4eae-a759-f2d97ba89d7b",
+    "AmountInsured": 3703.12,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-02-21T06:28:45Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "abab6322-8133-43c5-a95e-410cee7a77e7",
+    "AmountInsured": 2124.32,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-10-17T12:31:56Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "87e85136-16a2-4800-a3ff-d3c93a397a1c",
+    "AmountInsured": 3853.65,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-03-27T01:51:02Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "93384a0a-7252-4ace-8831-e6fe3772dd92",
+    "AmountInsured": 867.01,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-12-18T07:24:48Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "0039b246-5ffa-4b90-b16f-fc9f2d4033d6",
+    "AmountInsured": 879.83,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-06-29T03:41:22Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "d72141bb-44b1-429b-a774-928179f97807",
+    "AmountInsured": 445.5,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-10-09T04:14:27Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "d99e6f24-be1a-4b9d-9c0e-22218017a6e0",
+    "AmountInsured": 2806.9,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-08-22T12:27:04Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "7e969f05-d914-41cb-963f-8826cbaa938b",
+    "AmountInsured": 3747.23,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-08-16T11:21:31Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "0bf7fc01-6ffb-44aa-8d68-324f0c3cbcee",
+    "AmountInsured": 2463.0,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-12-06T05:59:27Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "9378b669-cd82-4fc4-8751-e2f38e5f94d1",
+    "AmountInsured": 237.31,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-04-27T01:14:20Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "fc61f7b0-3919-4cf9-b6d4-7237b3aae205",
+    "AmountInsured": 1584.36,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-08-01T10:38:09Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "272d1367-dfc6-44ec-a7aa-5ef0bbc213d9",
+    "AmountInsured": 2724.41,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-12-18T02:21:10Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "9188b181-b083-4402-b5a1-1db40f2db8a8",
+    "AmountInsured": 269.24,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-11-14T09:55:06Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "eb7b45e5-7ed1-4f35-a420-245b16fa0960",
+    "AmountInsured": 1936.66,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-10-25T12:14:54Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "750feb5e-021f-4ef9-8b35-f50984120097",
+    "AmountInsured": 1848.74,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-12-04T11:34:30Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "21cb5d2a-539f-49fd-a192-31723c3b968e",
+    "AmountInsured": 3178.65,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-10-29T08:32:47Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "0844ac5b-e57b-49ad-9a93-78c432659c8a",
+    "AmountInsured": 1322.21,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-03-11T05:07:20Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "20d3b34e-7249-4d12-aeef-f159634abddd",
+    "AmountInsured": 3389.98,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-12-19T02:13:10Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "6b1edbab-e03e-4ced-8e0f-b0b1395dbbb3",
+    "AmountInsured": 1833.64,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-12-09T03:34:40Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "167b0dfb-e682-4f7b-873b-b4be255a7dbd",
+    "AmountInsured": 1266.39,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-08-04T08:54:11Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "6a9ab957-3cfb-4ea4-9260-7657b7b4476c",
+    "AmountInsured": 2243.0,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-10-19T11:04:05Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "c6527323-0240-42e6-9f8f-805f4a211c91",
+    "AmountInsured": 1880.66,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-12-25T04:25:29Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "e696c847-a8cf-41c9-88aa-d1dbe9fd3116",
+    "AmountInsured": 1253.88,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-01-10T02:52:36Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "b72f67b0-7f9a-4ee9-8b58-05552e277fa1",
+    "AmountInsured": 3153.69,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-10-31T03:53:58Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "552737e8-57aa-44e4-8592-d42630ea977c",
+    "AmountInsured": 3858.13,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-05-06T06:18:31Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "f9806d5f-fed2-45d2-afca-b28d36a7e5b4",
+    "AmountInsured": 2731.38,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-05-05T07:54:44Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "3ba861ab-8480-447c-beff-2b4fcafc65b9",
+    "AmountInsured": 1357.51,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-10-17T05:20:00Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "97ea2646-88be-487c-b8be-17c69eefb77a",
+    "AmountInsured": 1418.12,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-03-12T10:51:10Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "8f81db8d-626d-47dd-9599-84df422608d5",
+    "AmountInsured": 1065.49,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-04-06T05:03:32Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "e51c508b-7cfd-4134-a15d-4edb5c45e1c1",
+    "AmountInsured": 2854.68,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-02-24T06:27:56Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "aeee4a0d-2d14-4c22-aae9-b4f1be58acdb",
+    "AmountInsured": 2011.28,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-07-10T05:57:51Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "3b94a493-3af7-4d4f-83b1-f2faa1adb809",
+    "AmountInsured": 840.85,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-12-19T12:10:09Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "300d9989-50ca-4589-8521-6932e7e45677",
+    "AmountInsured": 2481.73,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-09-12T07:52:01Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "364e0536-9e35-4bc2-8588-0a0d4d16d94f",
+    "AmountInsured": 960.42,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-05-19T10:12:30Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "e194f5d3-a428-4998-9c68-59a255ff8f85",
+    "AmountInsured": 866.34,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-08-13T03:22:52Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "167301ad-e2d6-42db-b080-790a2558117b",
+    "AmountInsured": 3237.49,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-06-10T03:18:51Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "01adaadb-ac33-4fe3-8e66-bb162ae71083",
+    "AmountInsured": 3515.41,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-05-29T11:44:30Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "db6641a7-b24a-48f6-ab0b-a7beac3235ae",
+    "AmountInsured": 658.77,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-06-29T10:17:41Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "eb52b5f5-2c5a-4684-8043-3ab222f7e893",
+    "AmountInsured": 259.76,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-11-14T05:24:50Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "df3f2950-9886-410a-8508-01bb5e125eb7",
+    "AmountInsured": 647.05,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-08-10T01:11:02Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "2df83693-8d76-4c83-890e-37bcd03a5d2a",
+    "AmountInsured": 483.77,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-06-19T06:20:25Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "a9024b82-8cfd-484c-aa69-a4c55838ef48",
+    "AmountInsured": 3513.66,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-08-07T06:41:59Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "a3e3c971-b16c-40b4-9e13-698e27d3ac40",
+    "AmountInsured": 1688.84,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-01-15T03:37:31Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "c3b0cca5-f5be-4094-9629-73ce3727bb35",
+    "AmountInsured": 3062.26,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-03-18T01:43:48Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "8fb56435-156f-43ee-aa37-5fe17cd94fce",
+    "AmountInsured": 3930.68,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-08-26T05:53:07Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "70a5765c-26f4-4820-afeb-7ea124d14b74",
+    "AmountInsured": 393.61,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-03-28T11:37:44Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "537e969c-9355-416d-9fbf-68d2c1c21b17",
+    "AmountInsured": 3986.94,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-03-24T05:52:20Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "aad066cc-30ba-4bde-80be-a7e423631291",
+    "AmountInsured": 3669.14,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-01-30T05:16:28Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "89c3daf9-7caf-46be-b2cb-2945e0f76e1e",
+    "AmountInsured": 1192.25,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-09-24T02:37:19Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "580b1383-d1d0-4f99-9d17-97abc4ae1106",
+    "AmountInsured": 2727.38,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-03-25T08:05:41Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "4a1b6120-2d36-4e04-a6c8-09f69a1fab5a",
+    "AmountInsured": 2097.72,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-08-17T02:34:43Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "c2a0125a-8652-418c-91b6-fd6d91a686ab",
+    "AmountInsured": 2031.89,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-08-24T01:09:19Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "619b6cfc-fab9-4fc7-9311-7883cf203796",
+    "AmountInsured": 2855.85,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-08-29T10:23:01Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "b6bf2d5b-0666-4f58-982d-c56e91201f26",
+    "AmountInsured": 2773.76,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-02-14T04:47:55Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "5eb57440-d277-4df4-83b2-eb9f0ef728de",
+    "AmountInsured": 827.32,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-12-18T11:21:01Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "8dc0fb30-74d6-4dfa-95ae-5aee9a88ce4b",
+    "AmountInsured": 2696.66,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-11-15T03:04:18Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "dedd25be-b349-4bb8-b15d-6fb835c599ea",
+    "AmountInsured": 2551.83,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-02-18T04:09:38Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "02b219dd-6c4a-4b1b-8f02-f7c973f0f588",
+    "AmountInsured": 3459.11,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-08-10T05:48:45Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "69ccdfe3-e250-423b-a0ba-657e483325d9",
+    "AmountInsured": 1722.41,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-09-30T03:18:16Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "4bbc5ed3-9dfc-45c7-a4ed-0a404021b91c",
+    "AmountInsured": 3474.91,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-09-11T05:02:19Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "ab4e2069-67ff-46ff-a84f-3cb2b15db9ae",
+    "AmountInsured": 3476.07,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-01-14T12:02:21Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "8c571eba-cba3-4905-a664-ff7f8dea664c",
+    "AmountInsured": 3600.24,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-04-21T02:46:45Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "0603ae76-d434-43bb-bdec-637bed0c9078",
+    "AmountInsured": 1389.84,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-10-27T04:46:25Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "5851f1f8-aa2d-40ad-acc5-07d262bae66f",
+    "AmountInsured": 1939.66,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-04-27T02:17:40Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "a6834b18-2b2c-4d45-be9d-02c80a76fd37",
+    "AmountInsured": 2465.2,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-08-14T09:20:27Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "d426521a-3e15-4d22-96e9-d151768adb99",
+    "AmountInsured": 2113.33,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-05-15T08:08:37Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "2c0cec3a-78ef-45e2-bb42-5c3d80dc5f83",
+    "AmountInsured": 2290.22,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-07-20T07:54:43Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "5d6190ed-3c74-4673-ba70-f57d8fbd4b8d",
+    "AmountInsured": 1895.28,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-01-19T11:09:39Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "0d4bc5cf-4677-4876-bad3-c7064ebaf3b2",
+    "AmountInsured": 2568.74,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-07-30T10:50:35Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "a751f39e-4668-4809-94ff-5f86e4b67b30",
+    "AmountInsured": 2859.85,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-01-27T01:01:52Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "1ffcfab7-60fc-4954-82ee-b3c365f2a054",
+    "AmountInsured": 3457.34,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-11-10T07:40:59Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "77447968-1686-4c16-883d-9282bae19b20",
+    "AmountInsured": 3218.62,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-03-08T08:18:34Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "c8616e33-ab21-4914-a828-832dff818c0b",
+    "AmountInsured": 2571.43,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-11-05T11:02:46Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "29a92e14-e935-44db-8c42-1d31c76c01c8",
+    "AmountInsured": 3192.66,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-01-02T11:40:20Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "98e9c6b2-6555-4777-953a-634f2c14749a",
+    "AmountInsured": 902.18,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-02-25T08:27:30Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "65e5205b-3bdd-4da0-a169-60bcc1a6227d",
+    "AmountInsured": 2084.57,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-10-29T05:46:35Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "42ab2da6-a60a-4284-ac1b-163984a9db32",
+    "AmountInsured": 662.46,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-10-28T06:07:33Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "9a4aa259-6693-48ff-b751-83ed5ed20516",
+    "AmountInsured": 758.31,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-03-31T02:36:33Z",
+    "InstallmentPayment": false,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "e626d069-fd2c-4211-99b6-67ed9e867387",
+    "AmountInsured": 1695.35,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-04-11T06:01:29Z",
+    "InstallmentPayment": true,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "8b089843-48e0-4c9d-a275-07e925184ab5",
+    "AmountInsured": 1257.59,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-03-19T01:10:46Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "dde33fe3-b04c-4d4b-994f-c823e4908be5",
+    "AmountInsured": 904.86,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2015-11-19T05:37:56Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "f5461f58-32d4-4834-b896-63b69e14c97c",
+    "AmountInsured": 3190.76,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-01-10T05:30:17Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "b2f57230-96d6-403f-be65-139d016cd318",
+    "AmountInsured": 2578.35,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2016-07-06T10:14:09Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  },
+  {
+    "Id": "0df3bcef-7a14-4dd7-a42d-fa209d0d5804",
+    "AmountInsured": 705.14,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-05-11T12:28:41Z",
+    "InstallmentPayment": false,
+    "ClientId": "a0ece5db-cd14-4f21-812f-966633e7be86",
+    "Client": null
+  },
+  {
+    "Id": "facd2c78-65f0-4a49-8a66-560109d263bc",
+    "AmountInsured": 795.83,
+    "Email": "inesblankenship@quotezart.com",
+    "InceptionDate": "2014-10-18T07:12:05Z",
+    "InstallmentPayment": true,
+    "ClientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb",
+    "Client": null
+  }
+]
