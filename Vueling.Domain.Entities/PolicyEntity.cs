@@ -12,8 +12,6 @@ namespace Vueling.Domain.Entities {
         public System.DateTime InceptionDate { get; set; }
         public bool InstallmentPayment { get; set; }
         public string ClientId { get; set; }
-
-        public ClientEntity Client { get; set; }
-        
+   
     }
 }

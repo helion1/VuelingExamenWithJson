@@ -21,7 +21,5 @@ namespace Vueling.Application.Dto {
         [JsonProperty("clientId")]
         public string ClientId { get; set; }
 
-        public ClientDto Client { get; set; }
-
     }
 }

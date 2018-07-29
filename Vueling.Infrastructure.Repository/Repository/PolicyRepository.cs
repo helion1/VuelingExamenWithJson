@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 using Vueling.Common.Layer;
 using Vueling.Domain.Entities;
 using Vueling.Infrastructure.Repository.Contracts;
-using Vueling.Infrastructure.Repository.DataModel;
 
 namespace Vueling.Infrastructure.Repository.Repository {
     public class PolicyRepository : IRepository<PolicyEntity>, IPolicyRepository<PolicyEntity> {
@@ -49,7 +48,7 @@ namespace Vueling.Infrastructure.Repository.Repository {
             return listPolicyEntities;
         }
 
-       #region Exceptions With Log
+        #region Exceptions With Log
             /*
                                catch (DbUpdateConcurrencyException e) {
                            Log.Error(Resource_Infrastructure_Repository.ConcurrencyError
@@ -103,39 +102,65 @@ namespace Vueling.Infrastructure.Repository.Repository {
 
         public List<PolicyEntity> GetAll() {
             List<PolicyEntity> policiesList;
-            try{
+            try {
                 policiesList = fm.GetAllPolicies();
 
-            } catch (VuelingException e) {
-                throw e;
+                #region Exceptions and Log
+            } catch (ArgumentException ex) {
+                throw new VuelingException(Resource_Infrastructure_Repository.ArgumentError, ex);
+
+            } catch (VuelingException ex) {
+                throw ex;
+                #endregion
             }
             return policiesList;
         }
 
-
         public List<PolicyEntity> GetPoliciesByUserName(string username) {
             List<PolicyEntity> policiesList;
             List<ClientEntity> clientsList;
+            ClientEntity client;
+            List<PolicyEntity> policiesOfClient;
 
             try {
-                policiesList = fm.GetAllPolicies
-            } catch (VuelingException e) {
-                  throw e;
-                }
-}
+                policiesList = fm.GetAllPolicies();
+                clientsList = fm.GetAllClients();
+
+                client = clientsList.FirstOrDefault(x => x.Name.Equals(username));
+                policiesOfClient = policiesList.Where(x => x.ClientId.Equals(client.Id)).ToList();
+
+            #region Exceptions and Log
+            } catch (ArgumentException ex) {
+                throw new VuelingException(Resource_Infrastructure_Repository.ArgumentError, ex);
+
+            } catch (VuelingException ex) {
+                throw ex;
+            #endregion
+            }
+            return policiesOfClient;
+        }
 
         public bool HasTheDbBeenModified(List<PolicyEntity> newListPolicies) {
             List<PolicyEntity> currentListPolicies = fm.GetAllPolicies();
 
             if (newListPolicies.Count() == currentListPolicies.Count()) {
 
-                newListPolicies = newListPolicies.OrderBy(x => x.Id).ToList();
-                currentListPolicies = currentListPolicies.OrderBy(x => x.Id).ToList();
+                try {
+                    newListPolicies = newListPolicies.OrderBy(x => x.Id).ToList();
+                    currentListPolicies = currentListPolicies.OrderBy(x => x.Id).ToList();
 
-                for (int i = 0; i < currentListPolicies.Count(); i++) {
-                    if (!currentListPolicies[i].Id.Equals(newListPolicies[i].Id)) {
-                        return true;
+                    for (int i = 0; i < currentListPolicies.Count(); i++) {
+                        if (!currentListPolicies[i].Id.Equals(newListPolicies[i].Id)) {
+                            return true;
+                        }
                     }
+                #region Exceptions and Log
+                } catch (ArgumentException ex) {
+                    throw new VuelingException(Resource_Infrastructure_Repository.ArgumentError, ex);
+
+                } catch (VuelingException ex) {
+                    throw ex;
+                    #endregion
                 }
             } else return true;
             return false;

@@ -37,44 +37,6 @@ namespace Vueling.Application.Services.Service {
         }
 
 
-        public PolicyDto Add(PolicyDto policyDto) {
-            PolicyEntity policyEntity = null;
-            try {
-                var config = new MapperConfiguration(cfg => cfg.CreateMap<PolicyDto, PolicyEntity>().ReverseMap());
-
-                IMapper iMapper = config.CreateMapper();
-
-                policyEntity = iMapper.Map<PolicyDto, PolicyEntity>(policyDto);
-                PolicyEntity policyEntityAdded = policyRepository.Add(policyEntity);
-
-                return iMapper.Map<PolicyEntity, PolicyDto>(policyEntityAdded);
-
-            }
-            #region Exceptions With Log
-             catch (NotSupportedException e) {
-                Log.Error(Resource_Application_Services.NotSuportedError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
-                throw new VuelingException(Resource_Application_Services.NotSuportedError, e);
-
-            } catch (ObjectDisposedException e) {
-                Log.Error(Resource_Application_Services.ObjectDisposedError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
-                throw new VuelingException(Resource_Application_Services.ObjectDisposedError, e);
-
-            } catch (InvalidOperationException e) {
-                Log.Error(Resource_Application_Services.InvalidOperationError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
-                throw new VuelingException(Resource_Application_Services.InvalidOperationError, e);
-                #endregion
-            }
-        }
-
         public List<PolicyDto> AddList(List<PolicyDto> listPolicyDto) {
             List<PolicyEntity> ListPolicyEntities;
 
@@ -84,7 +46,7 @@ namespace Vueling.Application.Services.Service {
 
                 ListPolicyEntities = iMapper.Map<List<PolicyDto>, List<PolicyEntity>>(listPolicyDto);
 
-                List<PolicyEntity> ListPolicyEntitiesAdded = policyRepository.AddList(ListPolicyEntities);
+                List<PolicyEntity> ListPolicyEntitiesAdded = policyRepository.SaveList(ListPolicyEntities);
 
                 List<PolicyDto> listPolicyDtoAdded = iMapper.Map<List<PolicyEntity>, List<PolicyDto>>(ListPolicyEntitiesAdded);
 
@@ -120,7 +82,6 @@ namespace Vueling.Application.Services.Service {
 
             try {
                 var config = new MapperConfiguration(cfg => cfg.CreateMap<PolicyEntity, PolicyDto>().ReverseMap());
-
                 IMapper iMapper = config.CreateMapper();
 
                 listPolicyEntities = policyRepository.GetAll();
@@ -159,7 +120,6 @@ namespace Vueling.Application.Services.Service {
 
             try {
                 var config = new MapperConfiguration(cfg => cfg.CreateMap<PolicyEntity, PolicyDto>());
-
                 IMapper iMapper = config.CreateMapper();
 
                 listPolicyEntities = policyRepository.GetPoliciesByUserName(username);

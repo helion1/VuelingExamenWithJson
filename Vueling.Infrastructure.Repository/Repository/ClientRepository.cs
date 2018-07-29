@@ -12,7 +12,6 @@ using Vueling.Common.Layer;
 using Vueling.Domain.Entities;
 using Vueling.Infrastructure.Repository;
 using Vueling.Infrastructure.Repository.Contracts;
-using Vueling.Infrastructure.Repository.DataModel;
 
 namespace Vueling.Infrastructure.Repository.Repository {
     public class ClientRepository : IRepository<ClientEntity>, IClientRepository<ClientEntity> {

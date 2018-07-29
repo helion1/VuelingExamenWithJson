@@ -104,12 +104,14 @@ namespace Vueling.Facade.Api.Controllers{
             return clientService.GetUserByPolicyId(idPolicy);
         }
 
+
         /// <summary>
         /// Add a client
         /// </summary>
         /// <param name="clientDto"></param>
         /// <returns>Action HTTP Result</returns>
         // POST: api/ClientApi
+        /*
         [ResponseType(typeof(ClientDto))]
         public IHttpActionResult Post(ClientDto clientDto) {
 
@@ -138,6 +140,7 @@ namespace Vueling.Facade.Api.Controllers{
             return CreatedAtRoute(ResourceApi.HttpRoute,
                 new { id = clientDtoAdded.Id }, clientDtoAdded);
         }
+        */
     }
 
 }

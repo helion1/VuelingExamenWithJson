@@ -14,7 +14,7 @@ using Vueling.Infrastructure.Repository.Contracts;
 using Vueling.Infrastructure.Repository.Repository;
 
 namespace Vueling.Application.Services.Service {
-    public class ClientService : IService<ClientDto>, IClientRepository<ClientDto> {
+    public class ClientService : IService<ClientDto>, IClientService<ClientDto> {
         private readonly ClientRepository clientRepository;
 
         public ClientService() : this(new ClientRepository()) {
@@ -46,7 +46,7 @@ namespace Vueling.Application.Services.Service {
 
                 ListClientEntities = iMapper.Map<List<ClientDto>, List<ClientEntity>>(listClientDto);
 
-                List<ClientEntity> ListClientEntitiesAdded = clientRepository.AddList(ListClientEntities);
+                List<ClientEntity> ListClientEntitiesAdded = clientRepository.SaveList(ListClientEntities);
 
                 List<ClientDto> listClientDtoAdded = iMapper.Map<List<ClientEntity>, List<ClientDto>>(ListClientEntitiesAdded);
 
@@ -76,54 +76,13 @@ namespace Vueling.Application.Services.Service {
                 #endregion
             }
         }
-
-
-        public ClientDto Add(ClientDto clientDto) {
-            ClientEntity clientEntity = null;
-            try {
-                var config = new MapperConfiguration(cfg => cfg.CreateMap<ClientDto, ClientEntity>().ReverseMap());
-
-                IMapper iMapper = config.CreateMapper();
-
-                clientEntity = iMapper.Map<ClientDto, ClientEntity>(clientDto);
-                ClientEntity clientEntityWithId = clientRepository.Add(clientEntity);
-
-                ClientDto clientDtoAdded = iMapper.Map<ClientEntity, ClientDto>(clientEntityWithId);
-
-                return clientDtoAdded;
-
-            }
-            #region Exceptions With Log
-             catch (NotSupportedException e) {
-                Log.Error(Resource_Application_Services.NotSuportedError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
-                throw new VuelingException(Resource_Application_Services.NotSuportedError, e);
-
-            } catch (ObjectDisposedException e) {
-                Log.Error(Resource_Application_Services.ObjectDisposedError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
-                throw new VuelingException(Resource_Application_Services.ObjectDisposedError, e);
-
-            } catch (InvalidOperationException e) {
-                Log.Error(Resource_Application_Services.InvalidOperationError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
-                throw new VuelingException(Resource_Application_Services.InvalidOperationError, e);
-                #endregion
-            }
-        }
+        
 
         public List<ClientDto> Get() {
             List<ClientEntity> ListClientEntities;
 
             try {
                 var config = new MapperConfiguration(cfg => cfg.CreateMap<ClientEntity, ClientDto>().ReverseMap());
-
                 IMapper iMapper = config.CreateMapper();
 
                 ListClientEntities = clientRepository.GetAll();
@@ -163,7 +122,6 @@ namespace Vueling.Application.Services.Service {
 
             try {
                 var config = new MapperConfiguration(cfg => cfg.CreateMap<ClientEntity, ClientDto>());
-
                 IMapper iMapper = config.CreateMapper();
 
                 clientEntity = clientRepository.GetById(id);
@@ -203,7 +161,6 @@ namespace Vueling.Application.Services.Service {
 
             try {
                 var config = new MapperConfiguration(cfg => cfg.CreateMap<ClientEntity, ClientDto>());
-
                 IMapper iMapper = config.CreateMapper();
 
                 clientEntity = clientRepository.GetByName(name);
@@ -244,10 +201,9 @@ namespace Vueling.Application.Services.Service {
 
             try {
                 var config = new MapperConfiguration(cfg => cfg.CreateMap<ClientEntity, ClientDto>());
-
                 IMapper iMapper = config.CreateMapper();
 
-                clientEntity = clientRepository.GetUserByPolicyId(idPolicy);
+                clientEntity = clientRepository.GetClientByPolicyId(idPolicy);
 
                 clientDto = iMapper.Map<ClientEntity, ClientDto>(clientEntity);
 

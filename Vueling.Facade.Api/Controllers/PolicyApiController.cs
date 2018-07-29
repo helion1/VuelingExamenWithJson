@@ -69,6 +69,7 @@ namespace Vueling.Facade.Api.Controllers
         /// <param name="policyDto"></param>
         /// <returns></returns>
         // POST: api/PolicyApi
+        /*
         [ResponseType(typeof(PolicyDto))]
         public IHttpActionResult Post(PolicyDto policyDto) {
 
@@ -98,6 +99,7 @@ namespace Vueling.Facade.Api.Controllers
             return CreatedAtRoute(ResourceApi.HttpRoute,
                 new { id = policyDtoAdded.Id }, policyDtoAdded);
         }
+        */
     }
 
 }

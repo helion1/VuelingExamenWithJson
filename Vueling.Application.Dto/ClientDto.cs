@@ -10,7 +10,6 @@ namespace Vueling.Application.Dto {
         public ClientDto(){
         }
 
-
         public ClientDto(string id, string name, string email, string role) {
             Id = id;
             Name = name;
