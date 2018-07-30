@@ -19,20 +19,13 @@ namespace Vueling.Application.Services.Service {
 
         public PolicyService() : this(new PolicyRepository()) {
             #region Init Log
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.File(ConfigurationManager.AppSettings["ErrorLog"].ToString(), fileSizeLimitBytes: 1000)
-                .CreateLogger();
             #endregion
         }
 
         public PolicyService(PolicyRepository policyRepository) {
             this.policyRepository = policyRepository;
             #region Init Log
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.File(ConfigurationManager.AppSettings["ErrorLog"].ToString(), fileSizeLimitBytes: 1000)
-                .CreateLogger();
+
             #endregion
         }
 
@@ -54,24 +47,15 @@ namespace Vueling.Application.Services.Service {
             }
             #region Exceptions With Log
              catch (NotSupportedException e) {
-                Log.Error(Resource_Application_Services.NotSuportedError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
+
                 throw new VuelingException(Resource_Application_Services.NotSuportedError, e);
 
             } catch (ObjectDisposedException e) {
-                Log.Error(Resource_Application_Services.ObjectDisposedError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
+
                 throw new VuelingException(Resource_Application_Services.ObjectDisposedError, e);
 
             } catch (InvalidOperationException e) {
-                Log.Error(Resource_Application_Services.InvalidOperationError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
+
                 throw new VuelingException(Resource_Application_Services.InvalidOperationError, e);
                 #endregion
             }
@@ -86,28 +70,20 @@ namespace Vueling.Application.Services.Service {
 
                 listPolicyEntities = policyRepository.GetAll();
 
-                return iMapper.Map<List<PolicyEntity>, List<PolicyDto>>(listPolicyEntities);
+                List<PolicyDto> listPolicyDtos = iMapper.Map<List<PolicyEntity>, List<PolicyDto>>(listPolicyEntities);
+                return listPolicyDtos;
             }
             #region Exceptions With Log
              catch (NotSupportedException e) {
-                Log.Error(Resource_Application_Services.NotSuportedError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
+
                 throw new VuelingException(Resource_Application_Services.NotSuportedError, e);
 
             } catch (ObjectDisposedException e) {
-                Log.Error(Resource_Application_Services.ObjectDisposedError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
+
                 throw new VuelingException(Resource_Application_Services.ObjectDisposedError, e);
 
             } catch (InvalidOperationException e) {
-                Log.Error(Resource_Application_Services.InvalidOperationError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
+
                 throw new VuelingException(Resource_Application_Services.InvalidOperationError, e);
                 #endregion
             }
@@ -130,24 +106,15 @@ namespace Vueling.Application.Services.Service {
             }
             #region Exceptions With Log
              catch (NotSupportedException e) {
-                Log.Error(Resource_Application_Services.NotSuportedError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
+
                 throw new VuelingException(Resource_Application_Services.NotSuportedError, e);
 
             } catch (ObjectDisposedException e) {
-                Log.Error(Resource_Application_Services.ObjectDisposedError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
+
                 throw new VuelingException(Resource_Application_Services.ObjectDisposedError, e);
 
             } catch (InvalidOperationException e) {
-                Log.Error(Resource_Application_Services.InvalidOperationError
-                    + e.Message + Resource_Application_Services.ErrorLogSeparation
-                    + e.Data + Resource_Application_Services.ErrorLogSeparation
-                    + e.StackTrace);
+
                 throw new VuelingException(Resource_Application_Services.InvalidOperationError, e);
                 #endregion
             }

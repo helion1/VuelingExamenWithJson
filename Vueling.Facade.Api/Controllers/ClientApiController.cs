@@ -23,10 +23,7 @@ namespace Vueling.Facade.Api.Controllers{
         /// </summary>
         public ClientApiController() : this(new ClientService()) {
             #region Init Log
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.File(ConfigurationManager.AppSettings["ErrorLog"].ToString(), fileSizeLimitBytes: 1000)
-                .CreateLogger();
+
             #endregion
         }
 
@@ -37,10 +34,7 @@ namespace Vueling.Facade.Api.Controllers{
         public ClientApiController(ClientService clientService) {
             this.clientService = clientService;
             #region Init Log
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.File(ConfigurationManager.AppSettings["ErrorLog"].ToString(), fileSizeLimitBytes: 1000)
-                .CreateLogger();
+
             #endregion
         }
 
@@ -49,21 +43,17 @@ namespace Vueling.Facade.Api.Controllers{
         /// </summary>
         /// <returns>List</returns>
         // GET: api/ClientApi
-        public IHttpActionResult Get() {
+        public List<ClientDto> Get() {
             List<ClientDto> clients = null;
 
-            if (!ModelState.IsValid) {
-                return BadRequest(ModelState);
-            }
             try {
                 clients = clientService.Get();
                 if (clients == null) {
                     throw new HttpResponseException(HttpStatusCode.NotFound);
                 } else
-                    return Ok(clients);
+                    return clients;
 
             } catch (VuelingException ex) {
-
                 throw ex;
             }
         }

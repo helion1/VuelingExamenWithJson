@@ -22,10 +22,7 @@ namespace Vueling.Facade.Api.Controllers
         /// </summary>
         public PolicyApiController() : this(new PolicyService()) {
             #region Init Log
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.File(ConfigurationManager.AppSettings["ErrorLog"].ToString(), fileSizeLimitBytes: 1000)
-                .CreateLogger();
+
             #endregion
         }
 
@@ -35,10 +32,6 @@ namespace Vueling.Facade.Api.Controllers
         public PolicyApiController(PolicyService policyService) {
             this.policyService = policyService;
             #region Init Log
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.File(ConfigurationManager.AppSettings["ErrorLog"].ToString(), fileSizeLimitBytes: 1000)
-                .CreateLogger();
             #endregion
         }
 

@@ -1,26 +1,20 @@
-﻿using System;
-using System.Text;
-using System.Collections.Generic;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using System.Threading;
-using System.Linq;
+using System;
+using System.Collections.Generic;
 using System.Configuration;
-using System.Web;
-using Newtonsoft.Json;
-using Vueling.Domain.Entities;
-using System.Net;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Vueling.Facade.ApiTests2 {
+namespace Vueling.Facade.ApiTests2.Controllers {
 
     [TestClass]
-    public class SeleniumCSharp {
+    public class ClientApiControllerSeleniumTest {
         private static IWebDriver Driver;
         private static String base_url = ConfigurationManager.AppSettings["baseUrl"]
-                                       + ConfigurationManager.AppSettings["UrlGetAllClients"];
-
-        //private static String base_url = "http://localhost:57896/api/ClientApi";
+                                        + ConfigurationManager.AppSettings["UrlGetAllClients"];
 
         [AssemblyInitialize]
         public static void AssemblyInit(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext context) {
