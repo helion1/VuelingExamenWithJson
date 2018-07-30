@@ -14,16 +14,13 @@ using Vueling.Infrastructure.Repository;
 using Vueling.Infrastructure.Repository.Contracts;
 
 namespace Vueling.Infrastructure.Repository.Repository {
-    public class ClientRepository : IRepository<ClientEntity>, IClientRepository<ClientEntity> {
+    public class ClientRepository : IClientRepository {
 
         public FileManager fm;
 
         public ClientRepository() : this(new FileManager()) {
             #region Init Log
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.File(ConfigurationManager.AppSettings["ErrorLog"].ToString(), fileSizeLimitBytes: 1000)
-                .CreateLogger();
+
             #endregion
         }
 
@@ -114,6 +111,7 @@ namespace Vueling.Infrastructure.Repository.Repository {
                     }
                 }
             } else return true;
+
             return false;
             }
         }

@@ -13,26 +13,19 @@ using Vueling.Domain.Entities;
 using Vueling.Infrastructure.Repository.Contracts;
 
 namespace Vueling.Infrastructure.Repository.Repository {
-    public class PolicyRepository : IRepository<PolicyEntity>, IPolicyRepository<PolicyEntity> {
+    public class PolicyRepository : IPolicyRepository {
 
         public FileManager fm;
 
         public PolicyRepository() : this(new FileManager()) {
             #region Init Log
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.File(ConfigurationManager.AppSettings["ErrorLog"].ToString(), fileSizeLimitBytes: 1000)
-                .CreateLogger();
             #endregion
         }
 
         public PolicyRepository(FileManager fileManager) {
             fm = fileManager;
             #region Init Log
-            Log.Logger = new LoggerConfiguration()
-                .MinimumLevel.Debug()
-                .WriteTo.File(ConfigurationManager.AppSettings["ErrorLog"].ToString(), fileSizeLimitBytes: 1000)
-                .CreateLogger();
+
             #endregion
         }
 

@@ -13,12 +13,12 @@ using Vueling.Facade.ApiTests1;
 namespace Vueling.Facade.Api.Controllers.UnitTest.Tests {
     [TestClass()]
     public class ClientApiControllerTests {
-        private IClientService<ClientDto> mockObject;
+        private IClientService mockObject;
         private ClientDto clientDto;
 
         [TestInitialize]
         public void Setup() {
-            var mock = new Mock<IClientService<ClientDto>>();
+            var mock = new Mock<IClientService>();
 
             clientDto = new ClientDto("a0ece5db-cd14-4f21-812f-966633e7be86",
                                        "Britney",

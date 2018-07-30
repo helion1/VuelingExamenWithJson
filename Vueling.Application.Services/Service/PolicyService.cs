@@ -14,7 +14,7 @@ using Vueling.Infrastructure.Repository.Contracts;
 using Vueling.Infrastructure.Repository.Repository;
 
 namespace Vueling.Application.Services.Service {
-    public class PolicyService : IService<PolicyDto>, IPolicyService<PolicyDto> {
+    public class PolicyService : IPolicyService {
         private readonly PolicyRepository policyRepository;
 
         public PolicyService() : this(new PolicyRepository()) {

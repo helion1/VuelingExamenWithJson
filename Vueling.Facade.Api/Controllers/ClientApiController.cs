@@ -50,8 +50,6 @@ namespace Vueling.Facade.Api.Controllers{
         /// <returns>List</returns>
         // GET: api/ClientApi
         public IHttpActionResult Get() {
-            //var clients = clientService.Get();
-
             List<ClientDto> clients = null;
 
             if (!ModelState.IsValid) {

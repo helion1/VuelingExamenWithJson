@@ -68,7 +68,6 @@
     <Compile Include="IClientRepository.cs" />
     <Compile Include="IFileManager.cs" />
     <Compile Include="IPolicyRepository.cs" />
-    <Compile Include="IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

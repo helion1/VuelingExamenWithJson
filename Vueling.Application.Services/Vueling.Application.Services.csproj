@@ -82,6 +82,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modules\ServiceModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resource.Application.Services.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -132,6 +133,7 @@
     <EmbeddedResource Include="Resource.Application.Services.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Application.Services.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

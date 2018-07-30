@@ -96,6 +96,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modules\RepositoryModule.cs" />
     <Compile Include="Utils\FileManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\PolicyRepository.cs" />
@@ -135,6 +136,7 @@
     <EmbeddedResource Include="Resource.Infrastructure.Repository.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resource.Infrastructure.Repository.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
