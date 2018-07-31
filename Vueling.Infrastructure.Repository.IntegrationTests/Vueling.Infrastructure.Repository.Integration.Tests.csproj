@@ -42,9 +42,6 @@
     <Reference Include="Autofac, Version=4.8.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <HintPath>..\packages\Autofac.4.8.0\lib\net45\Autofac.dll</HintPath>
     </Reference>
-    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.1.3.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
@@ -78,9 +75,17 @@
     <Compile Include="Tests\PolicyRepositoryIntegrationTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Vueling.Common.Layer\Vueling.Common.Layer.csproj">
+      <Project>{1B65FCA1-61AA-4ECB-A2D2-EFF0175C4310}</Project>
+      <Name>Vueling.Common.Layer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Vueling.Domain.Entities\Vueling.Domain.Entities.csproj">
       <Project>{C4748C7A-E7B1-47EA-BCDB-BCD4C1682643}</Project>
       <Name>Vueling.Domain.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vueling.Infrastructure.Repository.Contracts\Vueling.Infrastructure.Repository.Contracts.csproj">
+      <Project>{400BCBAE-E5D8-4440-9719-D181AEEA8359}</Project>
+      <Name>Vueling.Infrastructure.Repository.Contracts</Name>
     </ProjectReference>
     <ProjectReference Include="..\Vueling.Infrastructure.Repository\Vueling.Infrastructure.Repository.csproj">
       <Project>{853C9A56-46FF-49AF-8AA6-7EB61307EF13}</Project>

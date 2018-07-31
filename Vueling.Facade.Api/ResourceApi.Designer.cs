@@ -70,6 +70,15 @@ namespace Vueling.Facade.Api {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Error al buscar el resultado de una Task.
+        /// </summary>
+        internal static string AgreggateExc {
+            get {
+                return ResourceManager.GetString("AgreggateExc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Valor de variable nula.
         /// </summary>
         internal static string ArgumentNullError {

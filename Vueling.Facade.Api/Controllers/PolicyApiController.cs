@@ -1,5 +1,4 @@
-﻿using Serilog;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -11,29 +10,21 @@ using Vueling.Application.Dto;
 using Vueling.Application.Services.Contracts;
 using Vueling.Application.Services.Service;
 using Vueling.Common.Layer;
+using Vueling.Common.Layer.Utils;
 
 namespace Vueling.Facade.Api.Controllers
 {
     public class PolicyApiController : ApiController {
-        private readonly PolicyService policyService;
 
-        /// <summary>
-        /// Void Constructor
-        /// </summary>
-        public PolicyApiController() : this(new PolicyService()) {
-            #region Init Log
+        private readonly IPolicyService policyService;
+        private readonly ILogger log;
 
-            #endregion
-        }
-
-        /// <summary>
-        /// Void Constructor
-        /// </summary>
-        public PolicyApiController(PolicyService policyService) {
+        #region Constructors
+        public PolicyApiController(IPolicyService policyService, ILogger log) {
             this.policyService = policyService;
-            #region Init Log
-            #endregion
+            this.log = log;
         }
+        #endregion
 
         /// <summary>
         /// Get all policies
@@ -41,7 +32,18 @@ namespace Vueling.Facade.Api.Controllers
         /// <returns></returns>
         // GET: api/PolicyApi
         public List<PolicyDto> Get() {
-            return policyService.Get();
+            List<PolicyDto> policies = null;
+
+            try {
+                policies = policyService.Get();
+                if (policies == null) {
+                    throw new HttpResponseException(HttpStatusCode.NotFound);
+                } else
+                    return policies;
+
+            } catch (VuelingException ex) {
+                throw ex;
+            }
         }
 
         
@@ -53,7 +55,18 @@ namespace Vueling.Facade.Api.Controllers
         [HttpGet]
         [Route("api/PolicyApi/policiesByClientName/{name}")]
         public List<PolicyDto> GetPoliciesByUserName(string name) {
-            return policyService.GetPoliciesByUserName(name);
+            List<PolicyDto> policies = null;
+
+            try {
+                policies = policyService.GetPoliciesByUserName(name);
+                if (policies == null) {
+                    throw new HttpResponseException(HttpStatusCode.NotFound);
+                } else
+                    return policies;
+
+            } catch (VuelingException ex) {
+                throw ex;
+            }
         }
 
         /// <summary>

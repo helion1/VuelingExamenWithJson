@@ -14,10 +14,13 @@ namespace Vueling.Facade.Api.Controllers.UnitTest.Tests {
 
         private ClientApiController clientApiController;
 
+        /*
         [TestInitialize]
         public void TestInitialize() {
             clientApiController = new ClientApiController();
         }
+        */
+
 
         /// <summary>
         /// Testing total rows

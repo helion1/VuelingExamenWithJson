@@ -66,9 +66,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="Controllers\ClientApiControllerIntegrationTests.cs" />
-    <Compile Include="Controllers\HTTPApiControllerIntegrationTests.cs" />
-    <Compile Include="Controllers\PolicyApiControllerIntegrationTests.cs" />
+    <Compile Include="Tests\ClientApiControllerIntegrationTests.cs" />
+    <Compile Include="Tests\PolicyApiControllerIntegrationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -65,8 +65,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContainerJsonClientDto.cs" />
-    <Compile Include="ContainerJsonPolicyDto.cs" />
+    <Compile Include="JsonModels\ContainerJsonClientDto.cs" />
+    <Compile Include="JsonModels\ContainerJsonPolicyDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

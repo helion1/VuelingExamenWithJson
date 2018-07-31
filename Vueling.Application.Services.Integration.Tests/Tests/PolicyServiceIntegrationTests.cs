@@ -12,10 +12,16 @@ namespace Vueling.Application.Services.Service.Integration.Tests {
     public class PolicyServiceIntegrationTests {
         private PolicyService policyService;
 
+        public PolicyServiceIntegrationTests(PolicyService policyService) {
+            this.policyService = policyService;
+        }
+        
+        /*
         [TestInitialize]
         public void TestInitialize() {
             policyService = new PolicyService();
         }
+        */
 
 
         /// <summary>

@@ -59,7 +59,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="Controllers\ClientApiControllerSeleniumTest.cs" />
+    <Compile Include="Tests\ClientApiControllerSeleniumTest.cs" />
+    <Compile Include="Tests\PolicyApiControllerSeleniumTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

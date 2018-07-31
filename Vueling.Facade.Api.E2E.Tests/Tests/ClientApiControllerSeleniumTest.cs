@@ -13,9 +13,9 @@ namespace Vueling.Facade.ApiTests2.Controllers {
     [TestClass]
     public class ClientApiControllerSeleniumTest {
         private static IWebDriver Driver;
-        private static String base_url = ConfigurationManager.AppSettings["baseUrl"]
+        private static readonly String base_url = ConfigurationManager.AppSettings["baseUrl"]
                                         + ConfigurationManager.AppSettings["UrlGetAllClients"];
-
+        
         [AssemblyInitialize]
         public static void AssemblyInit(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext context) {
             Driver = new ChromeDriver();
@@ -23,12 +23,15 @@ namespace Vueling.Facade.ApiTests2.Controllers {
             Driver.Navigate().GoToUrl(base_url);
         }
 
+        
         [AssemblyCleanup]
         public static void AssemblyTearDown() {
             Driver.Close();
             Driver.Quit();
         }
+        
 
+    
         [TestMethod]
         public void SeleniumTestUsingCSharp() {
             var responseElement = Driver.FindElements(By.TagName("ClientDto"));
@@ -43,5 +46,6 @@ namespace Vueling.Facade.ApiTests2.Controllers {
             Assert.IsNotNull(email);
             Assert.IsNotNull(role);
         }
+
     }
 }

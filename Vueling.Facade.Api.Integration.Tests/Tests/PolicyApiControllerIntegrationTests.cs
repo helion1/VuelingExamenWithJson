@@ -13,11 +13,12 @@ namespace Vueling.Facade.Api.Controllers.UnitTest.Tests {
 
         private PolicyApiController policyApiController;
 
+        /*
         [TestInitialize]
         public void TestInitialize() {
             policyApiController = new PolicyApiController();
         }
-
+        */
 
         /// <summary>
         /// Testing total rows

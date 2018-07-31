@@ -1,5 +1,4 @@
-﻿using Serilog;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
@@ -11,32 +10,22 @@ using Vueling.Application.Dto;
 using Vueling.Application.Services.Contracts;
 using Vueling.Application.Services.Service;
 using Vueling.Common.Layer;
+using Vueling.Common.Layer.Utils;
 
 namespace Vueling.Facade.Api.Controllers{
 
     public class ClientApiController : ApiController {
 
-        private readonly ClientService clientService;
+        private readonly IClientService clientService;
+        private readonly ILogger log;
 
-        /// <summary>
-        /// Void Constructor
-        /// </summary>
-        public ClientApiController() : this(new ClientService()) {
-            #region Init Log
-
-            #endregion
-        }
-
-        /// <summary>
-        /// Void constructor
-        /// </summary>
-        /// <param name="clientService"></param>
-        public ClientApiController(ClientService clientService) {
+        #region Constructors
+        public ClientApiController(IClientService clientService, ILogger log) {
             this.clientService = clientService;
-            #region Init Log
-
-            #endregion
+            this.log = log;
         }
+        #endregion
+
 
         /// <summary>
         /// Get all clients
@@ -67,7 +56,17 @@ namespace Vueling.Facade.Api.Controllers{
         [HttpGet]
         [Route("api/ClientApi/{idClient}")]
         public ClientDto Get(string idClient) {
-            return clientService.GetById(idClient);
+            ClientDto client = null;
+            try {
+                client = clientService.GetById(idClient);
+                if (client == null) {
+                    throw new HttpResponseException(HttpStatusCode.NotFound);
+                } else
+                    return client;
+
+            } catch (VuelingException ex) {
+                throw ex;
+            }
         }
 
         /// <summary>
@@ -78,7 +77,17 @@ namespace Vueling.Facade.Api.Controllers{
         [HttpGet]
         [Route("api/ClientApi/ClientName/{name}")]
         public ClientDto GetUserByName(string name) {
-            return clientService.GetByName(name);
+            ClientDto client = null;
+            try {
+                client = clientService.GetByName(name);
+                if (client == null) {
+                    throw new HttpResponseException(HttpStatusCode.NotFound);
+                } else
+                    return client;
+
+            } catch (VuelingException ex) {
+                throw ex;
+            }
         }
 
         /// <summary>
@@ -89,7 +98,18 @@ namespace Vueling.Facade.Api.Controllers{
         [HttpGet]
         [Route("apiClientApi/policy/{idPolicy}")]
         public ClientDto GetUserByPolicyId(string idPolicy) {
-            return clientService.GetUserByPolicyId(idPolicy);
+            ClientDto client = null;
+            try {
+                client = clientService.GetUserByPolicyId(idPolicy);
+                if (client == null) {
+                    throw new HttpResponseException(HttpStatusCode.NotFound);
+                } else
+                    return client;
+
+            } catch (VuelingException ex) {
+                throw ex;
+            }
+
         }
 
 

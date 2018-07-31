@@ -12,10 +12,17 @@ namespace Vueling.Infrastructure.Repository.Repository.Integration.Tests {
     public class PolicyRepositoryIntegrationTests {
         private PolicyRepository policyRepository;
 
+        public PolicyRepositoryIntegrationTests(PolicyRepository policyRepository) {
+            this.policyRepository = policyRepository;
+        }
+        
+
+        /*
         [TestInitialize]
         public void TestInitialize() {
             policyRepository = new PolicyRepository();
         }
+        */
 
 
         /// <summary>

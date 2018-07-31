@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -9,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Vueling.Common.Layer;
+using Vueling.Common.Layer.Utils;
 using Vueling.Domain.Entities;
 using Vueling.Infrastructure.Repository;
 using Vueling.Infrastructure.Repository.Contracts;
@@ -16,22 +16,23 @@ using Vueling.Infrastructure.Repository.Contracts;
 namespace Vueling.Infrastructure.Repository.Repository {
     public class ClientRepository : IClientRepository {
 
-        public FileManager fm;
+        public IFileManager fm;
+        private readonly ILogger log;
 
-        public ClientRepository() : this(new FileManager()) {
-            #region Init Log
-
-            #endregion
-        }
-
-        public ClientRepository(FileManager fileManager) {
+        public ClientRepository(IFileManager fileManager, ILogger log) {
             fm = fileManager;
+            this.log = log;
         }
         
 
         public List<ClientEntity> SaveList(List<ClientEntity> listClientEntities) {
             if (HasTheDbBeenModified(listClientEntities)) {
-                fm.SaveClients(listClientEntities);
+                try {
+                    fm.SaveClients(listClientEntities);
+
+                } catch (VuelingException e) {
+                    throw e;
+                }
             }
             return listClientEntities;
         }
@@ -47,13 +48,17 @@ namespace Vueling.Infrastructure.Repository.Repository {
                 ClientEntity client = clientsList
                                         .FirstOrDefault(x => x.Id.Equals(id));
                 return client;
-            }
-            #region Exceptions and Log
-            catch (ArgumentException ex) {
-                throw new VuelingException(Resource_Infrastructure_Repository.ArgumentError, ex);
 
-            } catch (VuelingException ex) {
-                throw ex;
+                #region Exceptions and Log
+            } catch (ArgumentException e) {
+                log.Error(Resource_Infrastructure_Repository.ArgumentError
+                               + e.Message + Resource_Infrastructure_Repository.ErrorLogSeparation
+                               + e.Data + Resource_Infrastructure_Repository.ErrorLogSeparation
+                               + e.StackTrace);
+                throw new VuelingException(Resource_Infrastructure_Repository.ArgumentError, e);
+
+            } catch (VuelingException e) {
+                throw e;
             }
             #endregion
         }
@@ -64,15 +69,19 @@ namespace Vueling.Infrastructure.Repository.Repository {
                 ClientEntity client = clientsList
                                         .FirstOrDefault(x => x.Name.Equals(name));
                 return client;
-            }
-            #region Exceptions and Log
-            catch (ArgumentException ex) {
-                throw new VuelingException(Resource_Infrastructure_Repository.ArgumentError, ex);
 
-            } catch (VuelingException ex) {
-                throw ex;
-            #endregion
+            #region Exceptions and Log
+            } catch (ArgumentException e) {
+                log.Error(Resource_Infrastructure_Repository.ArgumentError
+                               + e.Message + Resource_Infrastructure_Repository.ErrorLogSeparation
+                               + e.Data + Resource_Infrastructure_Repository.ErrorLogSeparation
+                               + e.StackTrace);
+                throw new VuelingException(Resource_Infrastructure_Repository.ArgumentError, e);
+
+            } catch (VuelingException e) {
+                throw e;
             }
+            #endregion
         }
 
         public ClientEntity GetClientByPolicyId(string idPolicy) {
@@ -86,15 +95,19 @@ namespace Vueling.Infrastructure.Repository.Repository {
                 ClientEntity client = clientsList
                                         .FirstOrDefault(x => x.Id.Equals(policy.ClientId));
                 return client;
-            }
+            
             #region Exceptions and Log
-            catch (ArgumentException ex) {
-                throw new VuelingException(Resource_Infrastructure_Repository.ArgumentError, ex);
+            } catch (ArgumentException e) {
+                log.Error(Resource_Infrastructure_Repository.ArgumentError
+                               + e.Message + Resource_Infrastructure_Repository.ErrorLogSeparation
+                               + e.Data + Resource_Infrastructure_Repository.ErrorLogSeparation
+                               + e.StackTrace);
+                throw new VuelingException(Resource_Infrastructure_Repository.ArgumentError, e);
 
-            } catch (VuelingException ex) {
-                throw ex;
-                #endregion
+            } catch (VuelingException e) {
+                throw e;
             }
+            #endregion
         }
 
         public bool HasTheDbBeenModified(List<ClientEntity> newListClients) {

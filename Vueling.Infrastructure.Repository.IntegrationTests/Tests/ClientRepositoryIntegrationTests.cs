@@ -6,16 +6,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Vueling.Domain.Entities;
+using Vueling.Infrastructure.Repository.Contracts;
 
 namespace Vueling.Infrastructure.Repository.Repository.Integration.Tests {
     [TestClass()]
     public class ClientRepositoryIntegrationTests {
-        private ClientRepository clientRepository;
+        private IClientRepository clientRepository;
 
+        public ClientRepositoryIntegrationTests(IClientRepository clientRepository) {
+            this.clientRepository = clientRepository;
+        }
+
+        /*
         [TestInitialize]
         public void TestInitialize() {
             clientRepository = new ClientRepository();
         }
+        */
 
         /// <summary>
         /// Testing total rows

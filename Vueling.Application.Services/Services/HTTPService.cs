@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -13,31 +12,32 @@ using Vueling.Application.Dto;
 using Vueling.Application.JsonModels;
 using Vueling.Application.Services.Contracts;
 using Vueling.Common.Layer;
+using Vueling.Common.Layer.Utils;
 
 namespace Vueling.Application.Services.Service {
     public class HTTPService : IHTTPService{
 
-        public static HttpClient client;
-        public static ClientService clientService;
-        public static PolicyService policyService;
+        public HttpClient client;
+        public IClientService clientService;
+        public IPolicyService policyService;
+        private readonly ILogger log;
 
         #region Constructors
-        static HTTPService() {
-            client = new HttpClient();
-            clientService = new ClientService();
-            policyService = new PolicyService();
-            client.BaseAddress = new Uri(ConfigurationManager.AppSettings["uriWebServiceClientsPolicies"]);
-        }
 
-        public HTTPService() {
-            client = new HttpClient();
-            clientService = new ClientService();
-            policyService = new PolicyService();
+        public HTTPService(HttpClient httpClient, IClientService clientService,
+             IPolicyService policyService, ILogger log) {
+
+            this.client = httpClient;
+            this.clientService = clientService;
+            this.policyService = policyService;
             client.BaseAddress = new Uri(ConfigurationManager.AppSettings["uriWebServiceClientsPolicies"]);
         }
         #endregion
 
-
+        /// <summary>
+        /// Get all clients
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<ClientDto>> GetAllClients() {
             ContainerJsonClientDto ContainerJsonClients = new ContainerJsonClientDto();
             List<ClientDto> listClientDtos = new List<ClientDto>();
@@ -57,7 +57,7 @@ namespace Vueling.Application.Services.Service {
                 }
             #region Exceptions and log
             } catch (ArgumentNullException e) {
-                Log.Error(Resource_Application_Services.ArgumentError
+                log.Error(Resource_Application_Services.ArgumentError
                     + e.Message + Resource_Application_Services.ErrorLogSeparation
                     + e.Data + Resource_Application_Services.ErrorLogSeparation
                     + e.StackTrace);
@@ -68,6 +68,11 @@ namespace Vueling.Application.Services.Service {
             return listClientDtos;
         }
 
+
+        /// <summary>
+        /// Get all policies
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<PolicyDto>> GetAllPolicies() {
             ContainerJsonPolicyDto ContainerJsonPolicies = new ContainerJsonPolicyDto();
             List<PolicyDto> listPolicyDtos = new List<PolicyDto>();
@@ -89,7 +94,7 @@ namespace Vueling.Application.Services.Service {
                 }
             #region Exceptions and log
             } catch (ArgumentNullException e) {
-                Log.Error(Resource_Application_Services.ArgumentError
+                log.Error(Resource_Application_Services.ArgumentError
                     + e.Message + Resource_Application_Services.ErrorLogSeparation
                     + e.Data + Resource_Application_Services.ErrorLogSeparation
                     + e.StackTrace);

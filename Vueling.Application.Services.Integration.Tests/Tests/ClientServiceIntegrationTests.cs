@@ -14,10 +14,12 @@ namespace Vueling.Application.Services.Service.UnitTest.Tests {
 
         private ClientService clientService;
 
+        /*
         [TestInitialize]
         public void TestInitialize() {
             clientService = new ClientService();
         }
+        */
 
         /// <summary>
         /// Testing total rows

@@ -65,8 +65,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClientDto.cs" />
-    <Compile Include="PolicyDto.cs" />
+    <Compile Include="ModelsDto\ClientDto.cs" />
+    <Compile Include="ModelsDto\PolicyDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
