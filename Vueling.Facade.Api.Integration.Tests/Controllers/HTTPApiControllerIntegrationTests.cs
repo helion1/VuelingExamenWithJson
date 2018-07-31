@@ -17,7 +17,7 @@ namespace Vueling.Facade.Api.Controllers.Integration.Tests {
 
         [TestMethod()]
         public void GetAllPoliciesTest() {
-            Assert.Fail();
+            Assert.Fail(); 
         }
     }
 }
