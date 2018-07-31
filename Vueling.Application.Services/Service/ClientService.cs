@@ -56,11 +56,14 @@ namespace Vueling.Application.Services.Service {
             } catch (InvalidOperationException e) {
 
                 throw new VuelingException(Resource_Application_Services.InvalidOperationError, e);
-                #endregion
+            #endregion
             }
         }
         
-
+        /// <summary>
+        /// Return all clients
+        /// </summary>
+        /// <returns></returns>
         public List<ClientDto> Get() {
             List<ClientEntity> ListClientEntities;
 

@@ -1,25 +1,31 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Vueling.Facade.Api.Controllers;
+using Vueling.Infrastructure.Repository.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Vueling.Application.Dto;
+using Vueling.Domain.Entities;
 
-namespace Vueling.Facade.Api.Controllers.UnitTest.Tests {
+namespace Vueling.Infrastructure.Repository.Repository.Integration.Tests {
     [TestClass()]
-    public class PolicyApiControllerTests {
+    public class PolicyRepositoryIntegrationTests {
+        private PolicyRepository policyRepository;
+
+        [TestInitialize]
+        public void TestInitialize() {
+            policyRepository = new PolicyRepository();
+        }
+
+
         /// <summary>
         /// Testing total rows
         /// </summary>
         [TestMethod()]
         public void GetTest() {
-            PolicyApiController policyApiController = new PolicyApiController();
+            List<PolicyEntity> listPolicyEntities = policyRepository.GetAll();
 
-            List<PolicyDto> listPolicytDto = policyApiController.Get();
-
-            Assert.IsTrue(listPolicytDto.Count() == 193);
+            Assert.IsTrue(listPolicyEntities.Count() == 193);
         }
 
 
@@ -33,14 +39,11 @@ namespace Vueling.Facade.Api.Controllers.UnitTest.Tests {
         [DataRow("e8fd159b-57c4-4d36-9bd7-a59ca13057bb", "Manning")]
         [DataTestMethod]
         public void GetPoliciesByUserNameTest(string id, string name) {
-            PolicyApiController policyApiController = new PolicyApiController();
+            List<PolicyEntity> listPolicyEntities = policyRepository.GetPoliciesByUserName(name);
 
-            List<PolicyDto> listPolicytDto = policyApiController.GetPoliciesByUserName(name);
-
-            foreach(var policy in listPolicytDto) {
+            foreach (var policy in listPolicyEntities) {
                 Assert.AreEqual(policy.ClientId, id);
             }
         }
-        
     }
 }

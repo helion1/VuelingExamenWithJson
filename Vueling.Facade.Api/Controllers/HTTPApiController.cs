@@ -15,7 +15,9 @@ using Vueling.Common.Layer;
 using Vueling.Facade.Api.ViewModels;
 
 namespace Vueling.Facade.Api.Controllers
-{
+{   /// <summary>
+    /// controller that receives from the web service
+    /// </summary>
     public class HTTPApiController {
 
         public static HTTPService httpService;
@@ -32,13 +34,19 @@ namespace Vueling.Facade.Api.Controllers
             httpService = hTTPService;
         }
         #endregion
-
+        /// <summary>
+        /// Call GetAllClients and GetAllPolicies
+        /// </summary>
+        /// <returns></returns>
         public static async Task InitBDAsync() {
             await GetAllClients();
             await GetAllPolicies();
         }
         
-        
+        /// <summary>
+        /// Get all Clients from an extern web service
+        /// </summary>
+        /// <returns></returns>
         public static async Task<List<ClientDto>> GetAllClients() {
             
             try {
@@ -62,6 +70,10 @@ namespace Vueling.Facade.Api.Controllers
             #endregion
         }
 
+        /// <summary>
+        /// Get all Policies from an extern web service
+        /// </summary>
+        /// <returns></returns>
         public static async Task<List<PolicyDto>> GetAllPolicies() {
 
             try {
