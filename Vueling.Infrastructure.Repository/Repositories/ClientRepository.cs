@@ -27,7 +27,7 @@ namespace Vueling.Infrastructure.Repository.Repository {
 
 
         public List<ClientEntity> SaveList(List<ClientEntity> listClientEntities) {
-            if (HasTheDbBeenModified(listClientEntities)) {
+            if (HasTheDataBeenModified(listClientEntities)) {
                 try {
                     fm.SaveClients(listClientEntities);
 
@@ -111,7 +111,7 @@ namespace Vueling.Infrastructure.Repository.Repository {
             #endregion
         }
 
-        public bool HasTheDbBeenModified(List<ClientEntity> newListClients) {
+        public bool HasTheDataBeenModified(List<ClientEntity> newListClients) {
             List<ClientEntity> currentListClients = fm.GetAllClients();
 
             if (newListClients.Count() == currentListClients.Count()) {

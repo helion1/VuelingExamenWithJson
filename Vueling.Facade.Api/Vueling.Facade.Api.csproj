@@ -228,7 +228,6 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\ClientApiController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\HTTPApiController.cs" />
     <Compile Include="Controllers\PolicyApiController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

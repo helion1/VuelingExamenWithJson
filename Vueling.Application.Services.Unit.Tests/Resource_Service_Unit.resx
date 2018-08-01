@@ -117,25 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="amountInsured2" xml:space="preserve">
-    <value>1825.89</value>
+  <data name="email1" xml:space="preserve">
+    <value>britneyblankenship@quotezart.com</value>
   </data>
-  <data name="idPolicyOfTest1" xml:space="preserve">
+  <data name="id1" xml:space="preserve">
+    <value>a0ece5db-cd14-4f21-812f-966633e7be86</value>
+  </data>
+  <data name="idPolicy1" xml:space="preserve">
     <value>7b624ed3-00d5-4c1b-9ab8-c265067ef58b</value>
   </data>
-  <data name="nameOfUserTest1" xml:space="preserve">
+  <data name="name1" xml:space="preserve">
     <value>Britney</value>
   </data>
-  <data name="policyDateTime2" xml:space="preserve">
-    <value>2016-06-01T03:33:32Z</value>
-  </data>
-  <data name="policyEmail2" xml:space="preserve">
-    <value>inesblankenship@quotezart.com</value>
-  </data>
-  <data name="policyid2" xml:space="preserve">
-    <value>64cceef9-3a01-49ae-a23b-3761b604800b</value>
-  </data>
-  <data name="policyIdClient2" xml:space="preserve">
-    <value>e8fd159b-57c4-4d36-9bd7-a59ca13057bb</value>
+  <data name="role1" xml:space="preserve">
+    <value>admin</value>
   </data>
 </root>

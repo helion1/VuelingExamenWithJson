@@ -107,6 +107,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ResourceUnitTests.resx</DependentUpon>
     </Compile>
+    <Compile Include="Tests\PolicyApiControllerUnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Vueling.Application.Dto\Vueling.Application.Dto.csproj">

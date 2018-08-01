@@ -26,7 +26,7 @@ namespace Vueling.Infrastructure.Repository.Repository {
         
 
         public List<PolicyEntity> SaveList(List<PolicyEntity> listPolicyEntities) {
-            if (HasTheDbBeenModified(listPolicyEntities)) {
+            if (HasTheDataBeenModified(listPolicyEntities)) {
                 try {
                     fm.SavePolicies(listPolicyEntities);
 
@@ -139,7 +139,7 @@ namespace Vueling.Infrastructure.Repository.Repository {
             return policiesOfClient;
         }
 
-        public bool HasTheDbBeenModified(List<PolicyEntity> newListPolicies) {
+        public bool HasTheDataBeenModified(List<PolicyEntity> newListPolicies) {
             List<PolicyEntity> currentListPolicies = fm.GetAllPolicies();
 
             if (newListPolicies.Count() == currentListPolicies.Count()) {

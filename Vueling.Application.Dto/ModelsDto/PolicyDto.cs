@@ -7,6 +7,19 @@ using System.Threading.Tasks;
 
 namespace Vueling.Application.Dto {
     public class PolicyDto {
+        public PolicyDto() {
+        }
+
+        public PolicyDto(string id, decimal amountInsured, string email,
+            DateTime inceptionDate, bool installmentPayment, string clientId) {
+
+            Id = id;
+            AmountInsured = amountInsured;
+            Email = email;
+            InceptionDate = inceptionDate;
+            InstallmentPayment = installmentPayment;
+            ClientId = clientId;
+        }
 
         [JsonProperty("id")]
         public string Id { get; set; }

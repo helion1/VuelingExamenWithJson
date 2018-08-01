@@ -34,11 +34,12 @@ namespace Vueling.Infrastructure.Repository {
             Path = Resource_Infrastructure_Repository.PathForFiles;
         }
 
-        public void SaveClients(List<ClientEntity> listClients) {
+        public List<ClientEntity> SaveClients(List<ClientEntity> listClients) {
             try {
                 using (StreamWriter file = new StreamWriter(Path + FileClients, true)) { };
                 var listClientsJSON = JsonConvert.SerializeObject(listClients, Formatting.Indented);
                 File.WriteAllText(Path + FileClients, listClientsJSON);
+                return GetAllClients();
             
             #region Exceptions and Log
             } catch (UnauthorizedAccessException e) {
@@ -73,11 +74,12 @@ namespace Vueling.Infrastructure.Repository {
             #endregion
         }
 
-        public void SavePolicies(List<PolicyEntity> listPolicies) {
+        public List<PolicyEntity> SavePolicies(List<PolicyEntity> listPolicies) {
             try {
                 using (StreamWriter file = new StreamWriter(Path + FilePolicies, true)) { };
                 var listPoliciesJSON = JsonConvert.SerializeObject(listPolicies, Formatting.Indented);
                 File.WriteAllText(Path + FilePolicies, listPoliciesJSON);
+                return GetAllPolicies();
 
             #region Exceptions and Log
             } catch (UnauthorizedAccessException e) {

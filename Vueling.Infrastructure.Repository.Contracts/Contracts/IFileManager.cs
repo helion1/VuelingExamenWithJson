@@ -8,8 +8,8 @@ using Vueling.Domain.Entities;
 
 namespace Vueling.Infrastructure.Repository.Contracts {
     public interface IFileManager {
-        void SaveClients(List<ClientEntity> listClients);
-        void SavePolicies(List<PolicyEntity> listPolicies);
+        List<ClientEntity> SaveClients(List<ClientEntity> listClients);
+        List<PolicyEntity> SavePolicies(List<PolicyEntity> listPolicies);
 
         List<ClientEntity> GetAllClients();
         List<PolicyEntity> GetAllPolicies();

@@ -25,15 +25,6 @@ namespace Vueling.Facade.Api.Controllers
             this.policyService = policyService;
             this.log = log;
         }
-
-
-        /*
-        protected PolicyApiController() {
-            this.policyService = new PolicyService();
-            this.log = new Log4netAdapter();
-        }
-        */
-
         #endregion
 
         /// <summary>

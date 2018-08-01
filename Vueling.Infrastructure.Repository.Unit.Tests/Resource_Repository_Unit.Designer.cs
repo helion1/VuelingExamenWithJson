@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Vueling.Facade.ApiTests1 {
+namespace Vueling.Infrastructure.Repository.Unit.Tests {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace Vueling.Facade.ApiTests1 {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class ResourceUnitTests {
+    internal class Resource_Repository_Unit {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal ResourceUnitTests() {
+        internal Resource_Repository_Unit() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace Vueling.Facade.ApiTests1 {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Vueling.Facade.ApiTests1.ResourceUnitTests", typeof(ResourceUnitTests).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Vueling.Infrastructure.Repository.Unit.Tests.Resource_Repository_Unit", typeof(Resource_Repository_Unit).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,65 +61,47 @@ namespace Vueling.Facade.ApiTests1 {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 1825.89.
+        ///   Busca una cadena traducida similar a britneyblankenship@quotezart.com.
         /// </summary>
-        internal static string amountInsured2 {
+        internal static string email1 {
             get {
-                return ResourceManager.GetString("amountInsured2", resourceCulture);
+                return ResourceManager.GetString("email1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a a0ece5db-cd14-4f21-812f-966633e7be86.
+        /// </summary>
+        internal static string id1 {
+            get {
+                return ResourceManager.GetString("id1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Busca una cadena traducida similar a 7b624ed3-00d5-4c1b-9ab8-c265067ef58b.
         /// </summary>
-        internal static string idPolicyOfTest1 {
+        internal static string idPolicy1 {
             get {
-                return ResourceManager.GetString("idPolicyOfTest1", resourceCulture);
+                return ResourceManager.GetString("idPolicy1", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Busca una cadena traducida similar a Britney.
         /// </summary>
-        internal static string nameOfUserTest1 {
+        internal static string name1 {
             get {
-                return ResourceManager.GetString("nameOfUserTest1", resourceCulture);
+                return ResourceManager.GetString("name1", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 2016-06-01T03:33:32Z.
+        ///   Busca una cadena traducida similar a admin.
         /// </summary>
-        internal static string policyDateTime2 {
+        internal static string role1 {
             get {
-                return ResourceManager.GetString("policyDateTime2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a inesblankenship@quotezart.com.
-        /// </summary>
-        internal static string policyEmail2 {
-            get {
-                return ResourceManager.GetString("policyEmail2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a 64cceef9-3a01-49ae-a23b-3761b604800b.
-        /// </summary>
-        internal static string policyid2 {
-            get {
-                return ResourceManager.GetString("policyid2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a e8fd159b-57c4-4d36-9bd7-a59ca13057bb.
-        /// </summary>
-        internal static string policyIdClient2 {
-            get {
-                return ResourceManager.GetString("policyIdClient2", resourceCulture);
+                return ResourceManager.GetString("role1", resourceCulture);
             }
         }
     }

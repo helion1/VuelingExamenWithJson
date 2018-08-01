@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D6330B10-A432-42AC-9E63-76BDC16752A6}</ProjectGuid>
+    <ProjectGuid>{857C81AC-68C2-4D09-8625-C3A6134ECA58}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Vueling.Infrastructure.Repository.Unit.Tests</RootNamespace>
-    <AssemblyName>Vueling.Infrastructure.Repository.Unit.Tests</AssemblyName>
+    <RootNamespace>Vueling.Application.Services.Unit.Tests</RootNamespace>
+    <AssemblyName>Vueling.Application.Services.Unit.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -75,12 +75,12 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resource_Repository_Unit.Designer.cs">
+    <Compile Include="Resource_Service_Unit.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Resource_Repository_Unit.resx</DependentUpon>
+      <DependentUpon>Resource_Service_Unit.resx</DependentUpon>
     </Compile>
-    <Compile Include="UnitTests\ClientRepositoryUnitTests.cs" />
+    <Compile Include="Services\ClientServiceUnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -103,15 +103,11 @@
       <Project>{400BCBAE-E5D8-4440-9719-D181AEEA8359}</Project>
       <Name>Vueling.Infrastructure.Repository.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Vueling.Infrastructure.Repository\Vueling.Infrastructure.Repository.csproj">
-      <Project>{853C9A56-46FF-49AF-8AA6-7EB61307EF13}</Project>
-      <Name>Vueling.Infrastructure.Repository</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resource_Repository_Unit.resx">
+    <EmbeddedResource Include="Resource_Service_Unit.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resource_Repository_Unit.Designer.cs</LastGenOutput>
+      <LastGenOutput>Resource_Service_Unit.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Choose>

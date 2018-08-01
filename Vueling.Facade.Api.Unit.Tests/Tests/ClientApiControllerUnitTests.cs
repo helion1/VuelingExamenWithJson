@@ -11,8 +11,10 @@ using Moq;
 using Vueling.Facade.ApiTests1;
 
 namespace Vueling.Facade.Api.Controllers.UnitTest.Tests {
+
     [TestClass()]
-    public class ClientApiControllerTests {
+    public class ClientApiControllerUnitTests {
+
         private IClientService mockObject;
         private ClientDto clientDto;
 
