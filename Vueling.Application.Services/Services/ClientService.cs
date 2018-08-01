@@ -9,16 +9,18 @@ using Vueling.Application.Dto;
 using Vueling.Application.Services.Contracts;
 using Vueling.Common.Layer;
 using Vueling.Common.Layer.Utils;
+using Vueling.Common.Layer.Utils.Log4net;
 using Vueling.Domain.Entities;
 using Vueling.Infrastructure.Repository.Contracts;
 using Vueling.Infrastructure.Repository.Repository;
 
 namespace Vueling.Application.Services.Service {
     public class ClientService : IClientService {
-        private readonly ClientRepository clientRepository;
+        private readonly IClientRepository clientRepository;
         private readonly ILogger log;
 
-        public ClientService(ClientRepository clientRepository, ILogger log) {
+       
+        public ClientService(IClientRepository clientRepository, ILogger log) {
             this.clientRepository = clientRepository;
             this.log = log;
         }

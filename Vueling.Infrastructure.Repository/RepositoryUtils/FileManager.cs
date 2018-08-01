@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Vueling.Application.Dto;
 using Vueling.Common.Layer;
 using Vueling.Common.Layer.Utils;
+using Vueling.Common.Layer.Utils.Log4net;
 using Vueling.Domain.Entities;
 using Vueling.Infrastructure.Repository.Contracts;
 
@@ -26,6 +27,12 @@ namespace Vueling.Infrastructure.Repository {
             Path = Resource_Infrastructure_Repository.PathForFiles;
         }
 
+        public FileManager() {
+            log = new Log4netAdapter();
+            FileClients = Resource_Infrastructure_Repository.PathClients;
+            FilePolicies = Resource_Infrastructure_Repository.PathPolicies;
+            Path = Resource_Infrastructure_Repository.PathForFiles;
+        }
 
         public void SaveClients(List<ClientEntity> listClients) {
             try {

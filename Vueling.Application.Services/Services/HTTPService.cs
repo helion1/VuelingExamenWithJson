@@ -13,6 +13,7 @@ using Vueling.Application.JsonModels;
 using Vueling.Application.Services.Contracts;
 using Vueling.Common.Layer;
 using Vueling.Common.Layer.Utils;
+using Vueling.Common.Layer.Utils.Log4net;
 
 namespace Vueling.Application.Services.Service {
     public class HTTPService : IHTTPService{
@@ -32,7 +33,14 @@ namespace Vueling.Application.Services.Service {
             this.policyService = policyService;
             client.BaseAddress = new Uri(ConfigurationManager.AppSettings["uriWebServiceClientsPolicies"]);
         }
+        
         #endregion
+
+        public void InitDb() {
+            GetAllClients();
+            GetAllPolicies();
+        }
+
 
         /// <summary>
         /// Get all clients

@@ -18,23 +18,23 @@ namespace Vueling.Infrastructure.Repository.Modules {
             builder
                .RegisterType<ClientRepository>()
                .As<IClientRepository>()
-               .InstancePerRequest();
+               .InstancePerDependency();
 
             builder
                .RegisterType<PolicyRepository>()
                .As<IPolicyRepository>()
-               .InstancePerRequest();
+               .InstancePerDependency();
 
 
             builder
                 .RegisterType<FileManager>()
                 .As<IFileManager>()
-                .InstancePerRequest();
+                .InstancePerDependency();
 
             builder
                 .RegisterType<Log4netAdapter>()
                 .As<ILogger>()
-                .InstancePerRequest();
+                .InstancePerDependency();
 
             base.Load(builder);
 

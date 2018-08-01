@@ -13,11 +13,13 @@ using Vueling.Application.Services.Contracts;
 using Vueling.Application.Services.Service;
 using Vueling.Common.Layer;
 using Vueling.Common.Layer.Utils;
+using Vueling.Common.Layer.Utils.Log4net;
 using Vueling.Facade.Api.ViewModels;
 
-namespace Vueling.Facade.Api.Controllers {   /// <summary>
-                                             /// controller that receives from the web service
-                                             /// </summary>
+namespace Vueling.Facade.Api.Controllers {  
+    /// <summary>
+    /// controller that receives from the web service
+    /// </summary>
     public class HTTPApiController {
 
         public IHTTPService httpService;
@@ -28,7 +30,15 @@ namespace Vueling.Facade.Api.Controllers {   /// <summary>
             httpService = hTTPService;
             this.log = log;
         }
+
+        /*
+        public HTTPApiController() {
+            this.httpService = new HTTPService();
+            this.log = new Log4netAdapter();
+        }
+        */
         #endregion
+        
 
 
 
@@ -36,9 +46,9 @@ namespace Vueling.Facade.Api.Controllers {   /// <summary>
         /// Call GetAllClients and GetAllPolicies
         /// </summary>
         /// <returns></returns>
-        public void InitBDAsync() {
-            GetAllClients();
-            GetAllPolicies();
+        public async void InitBDAsync() {
+            await GetAllClients();
+            await GetAllPolicies();
         }
 
         /// <summary>

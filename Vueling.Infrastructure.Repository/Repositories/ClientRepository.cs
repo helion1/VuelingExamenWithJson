@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Vueling.Common.Layer;
 using Vueling.Common.Layer.Utils;
+using Vueling.Common.Layer.Utils.Log4net;
 using Vueling.Domain.Entities;
 using Vueling.Infrastructure.Repository;
 using Vueling.Infrastructure.Repository.Contracts;
@@ -23,7 +24,7 @@ namespace Vueling.Infrastructure.Repository.Repository {
             fm = fileManager;
             this.log = log;
         }
-        
+
 
         public List<ClientEntity> SaveList(List<ClientEntity> listClientEntities) {
             if (HasTheDbBeenModified(listClientEntities)) {

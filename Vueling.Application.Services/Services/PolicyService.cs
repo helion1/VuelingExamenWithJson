@@ -9,6 +9,7 @@ using Vueling.Application.Dto;
 using Vueling.Application.Services.Contracts;
 using Vueling.Common.Layer;
 using Vueling.Common.Layer.Utils;
+using Vueling.Common.Layer.Utils.Log4net;
 using Vueling.Domain.Entities;
 using Vueling.Infrastructure.Repository.Contracts;
 using Vueling.Infrastructure.Repository.Repository;
@@ -19,7 +20,7 @@ namespace Vueling.Application.Services.Service {
         private readonly IPolicyRepository policyRepository;
         private readonly ILogger log;
 
-
+        
         public PolicyService(IPolicyRepository policyRepository, ILogger log) {
             this.policyRepository = policyRepository;
             this.log = log;

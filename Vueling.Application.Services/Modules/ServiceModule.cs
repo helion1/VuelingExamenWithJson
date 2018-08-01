@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Vueling.Application.Services.Contracts;
@@ -16,30 +17,35 @@ namespace Vueling.Application.Services.Modules {
     public class ServiceModule : Autofac.Module {
 
         protected override void Load(ContainerBuilder builder) {
-            builder
-                .RegisterType<ClientService>()
-                .As<IClientService>()
-                .InstancePerRequest();
-
-            builder
-               .RegisterType<PolicyService>()
-               .As<IPolicyService>()
-               .InstancePerRequest();
-
+           
             builder
                 .RegisterType<ClientRepository>()
                 .As<IClientRepository>()
-                .InstancePerRequest();
+                .InstancePerDependency();
+
+            builder
+                .RegisterType<ClientService>()
+                .As<IClientService>()
+                .InstancePerDependency();
+
+            builder
+                .RegisterType<PolicyService>()
+                .As<IPolicyService>()
+                .InstancePerDependency();
 
             builder
                 .RegisterType<PolicyRepository>()
                 .As<IPolicyRepository>()
-                .InstancePerRequest();
+                .InstancePerDependency();
+
+            builder
+                .RegisterType<HttpClient>()
+                .InstancePerDependency();
 
             builder
                 .RegisterType<Log4netAdapter>()
                 .As<ILogger>()
-                .InstancePerRequest();
+                .InstancePerDependency();
 
             builder.RegisterModule(new RepositoryModule());
 

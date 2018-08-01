@@ -18,6 +18,7 @@ namespace Vueling.Facade.Api.App_Start {
             var container = builder.Build();
 
             var resolver = new AutofacWebApiDependencyResolver(container);
+
             GlobalConfiguration.Configuration.DependencyResolver = resolver;
 
             return container;

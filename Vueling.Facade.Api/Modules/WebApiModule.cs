@@ -16,33 +16,31 @@ namespace Vueling.Facade.Api.Modules {
     public class WebApiModule : Autofac.Module {
 
         protected override void Load(ContainerBuilder builder) {
+
             builder.RegisterApiControllers(Assembly.GetExecutingAssembly());
 
             builder
-                .RegisterType<HTTPApiController>()
-                .InstancePerRequest();
+                .RegisterType<ClientService>()
+                .As<IClientService>()
+                .InstancePerDependency();
+
+
+            builder
+               .RegisterType<PolicyService>()
+               .As<IPolicyService>()
+               .InstancePerDependency();
 
 
             builder
                 .RegisterType<HTTPService>()
                 .As<IHTTPService>()
-                .InstancePerRequest();
+                .InstancePerDependency();
 
-
-            builder
-                .RegisterType<ClientService>()
-                .As<IClientService>()
-                .InstancePerRequest();
-
-            builder
-               .RegisterType<PolicyService>()
-               .As<IPolicyService>()
-               .InstancePerRequest();
 
             builder
                 .RegisterType<Log4netAdapter>()
                 .As<ILogger>()
-                .InstancePerRequest();
+                .InstancePerDependency();
 
             builder.RegisterModule(new ServiceModule());
 

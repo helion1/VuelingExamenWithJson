@@ -11,6 +11,7 @@ using Vueling.Application.Services.Contracts;
 using Vueling.Application.Services.Service;
 using Vueling.Common.Layer;
 using Vueling.Common.Layer.Utils;
+using Vueling.Common.Layer.Utils.Log4net;
 
 namespace Vueling.Facade.Api.Controllers
 {
@@ -24,6 +25,15 @@ namespace Vueling.Facade.Api.Controllers
             this.policyService = policyService;
             this.log = log;
         }
+
+
+        /*
+        protected PolicyApiController() {
+            this.policyService = new PolicyService();
+            this.log = new Log4netAdapter();
+        }
+        */
+
         #endregion
 
         /// <summary>
