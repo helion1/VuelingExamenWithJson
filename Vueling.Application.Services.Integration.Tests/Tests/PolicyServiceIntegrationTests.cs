@@ -6,22 +6,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Vueling.Application.Dto;
+using Vueling.Common.Framework.IntegrationTest.Layer;
+using Vueling.Application.Services.Modules;
+using Vueling.Application.Services.Contracts;
 
 namespace Vueling.Application.Services.Service.Integration.Tests {
     [TestClass()]
-    public class PolicyServiceIntegrationTests {
-        private PolicyService policyService;
+    public class PolicyServiceIntegrationTests
+        : IoCSupportedTest<ServiceModule>{
 
-        public PolicyServiceIntegrationTests(PolicyService policyService) {
-            this.policyService = policyService;
-        }
+        private IPolicyService policyService;
+
         
-        /*
         [TestInitialize]
         public void TestInitialize() {
-            policyService = new PolicyService();
+            policyService = Resolve<IPolicyService>();
         }
-        */
 
 
         /// <summary>

@@ -75,6 +75,10 @@
     <Compile Include="Tests\PolicyRepositoryIntegrationTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Vueling.Common.Framework.IntegrationTest.Layer\Vueling.Common.Framework.IntegrationTest.Layer.csproj">
+      <Project>{A9D95669-2B41-46E5-84D4-20B1522DA406}</Project>
+      <Name>Vueling.Common.Framework.IntegrationTest.Layer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Vueling.Common.Layer\Vueling.Common.Layer.csproj">
       <Project>{1B65FCA1-61AA-4ECB-A2D2-EFF0175C4310}</Project>
       <Name>Vueling.Common.Layer</Name>

@@ -2,22 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using Vueling.Application.Services.Contracts;
 using Vueling.Application.Services.Service;
 
 namespace Vueling.Facade.Api.App_Start {
-    public static class StartDbConfig {
-        /*
-        static HTTPService httpService;
+    public class StartDbConfig {
+        static IHTTPService httpService;
 
-        static StartDbConfig() {
-            httpService = new HTTPService();
+        public StartDbConfig(IHTTPService httpS) {
+            httpService = httpS;
         }
+
 
         public static void InitData() {
             httpService.GetAllClients();
             httpService.GetAllPolicies();
         }
 
-       */
     }
 }

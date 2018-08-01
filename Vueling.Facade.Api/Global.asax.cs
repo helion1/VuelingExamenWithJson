@@ -19,9 +19,9 @@ namespace Vueling.Facade.Api {
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-           // StartDbConfig.InitData();
             log4net.Config.XmlConfigurator.Configure();
             AutofacConfigure.Configure();
+            //StartDbConfig.InitData();
         }
     }
 }

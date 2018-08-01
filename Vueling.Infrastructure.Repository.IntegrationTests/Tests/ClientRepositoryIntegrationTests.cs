@@ -7,22 +7,22 @@ using System.Text;
 using System.Threading.Tasks;
 using Vueling.Domain.Entities;
 using Vueling.Infrastructure.Repository.Contracts;
+using Vueling.Infrastructure.Repository.Modules;
+using Vueling.Common.Framework.IntegrationTest.Layer;
 
 namespace Vueling.Infrastructure.Repository.Repository.Integration.Tests {
     [TestClass()]
-    public class ClientRepositoryIntegrationTests {
+    public class ClientRepositoryIntegrationTests 
+        : IoCSupportedTest<RepositoryModule> {
+
         private IClientRepository clientRepository;
 
-        public ClientRepositoryIntegrationTests(IClientRepository clientRepository) {
-            this.clientRepository = clientRepository;
-        }
 
-        /*
         [TestInitialize]
         public void TestInitialize() {
-            clientRepository = new ClientRepository();
+            clientRepository = Resolve<IClientRepository>();
         }
-        */
+
 
         /// <summary>
         /// Testing total rows

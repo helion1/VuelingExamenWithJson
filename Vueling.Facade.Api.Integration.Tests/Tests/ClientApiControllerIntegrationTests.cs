@@ -6,20 +6,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Vueling.Application.Dto;
+using Vueling.Common.Framework.IntegrationTest.Layer;
+using Vueling.Application.Services.Modules;
+using Vueling.Facade.Api.Modules;
 
 namespace Vueling.Facade.Api.Controllers.UnitTest.Tests {
 
     [TestClass()]
-    public class ClientApiControllerIntegrationTests {
+    public class ClientApiControllerIntegrationTests 
+        : IoCSupportedTest<WebApiModule> {
 
         private ClientApiController clientApiController;
 
-        /*
+
         [TestInitialize]
         public void TestInitialize() {
-            clientApiController = new ClientApiController();
+            clientApiController = Resolve<ClientApiController>();
         }
-        */
+
 
 
         /// <summary>

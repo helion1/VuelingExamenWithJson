@@ -39,6 +39,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=4.8.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.8.0\lib\net45\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\MSTest.TestFramework.1.3.2\lib\net45\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
     </Reference>
@@ -74,6 +78,18 @@
     <ProjectReference Include="..\Vueling.Application.Dto\Vueling.Application.Dto.csproj">
       <Project>{429BE245-849D-438C-AD59-DB6CE0D92830}</Project>
       <Name>Vueling.Application.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vueling.Application.Services.Contracts\Vueling.Application.Services.Contracts.csproj">
+      <Project>{51f49133-0d00-46b2-b36c-262baf9f1a08}</Project>
+      <Name>Vueling.Application.Services.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vueling.Application.Services\Vueling.Application.Services.csproj">
+      <Project>{9A93D695-837D-42D1-9CAD-1D9AE8B87E1E}</Project>
+      <Name>Vueling.Application.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vueling.Common.Framework.IntegrationTest.Layer\Vueling.Common.Framework.IntegrationTest.Layer.csproj">
+      <Project>{A9D95669-2B41-46E5-84D4-20B1522DA406}</Project>
+      <Name>Vueling.Common.Framework.IntegrationTest.Layer</Name>
     </ProjectReference>
     <ProjectReference Include="..\Vueling.Facade.Api\Vueling.Facade.Api.csproj">
       <Project>{8BDD563B-C7CF-4BEC-9A78-B2FAA57DAA70}</Project>

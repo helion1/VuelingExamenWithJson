@@ -49,6 +49,7 @@ namespace Vueling.Application.Services.Service {
         public async Task<List<ClientDto>> GetAllClients() {
             ContainerJsonClientDto ContainerJsonClients = new ContainerJsonClientDto();
             List<ClientDto> listClientDtos = new List<ClientDto>();
+
             try {
                 HttpResponseMessage response = new HttpResponseMessage();
                 response = client.GetAsync(ConfigurationManager.AppSettings["pathToAllClients"]).Result;

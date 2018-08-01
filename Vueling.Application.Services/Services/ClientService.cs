@@ -71,6 +71,7 @@ namespace Vueling.Application.Services.Service {
         /// </summary>
         /// <returns></returns>
         public List<ClientDto> Get() {
+
             List<ClientEntity> ListClientEntities;
 
             try {

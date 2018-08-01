@@ -7,19 +7,24 @@ using System.Text;
 using System.Threading.Tasks;
 using Vueling.Facade.Api.Controllers;
 using Vueling.Application.Dto;
+using Vueling.Application.Services.Modules;
+using Vueling.Application.Services.Contracts;
+using Vueling.Common.Framework.IntegrationTest.Layer;
+using Vueling.Infrastructure.Repository.Modules;
 
 namespace Vueling.Application.Services.Service.UnitTest.Tests {
     [TestClass()]
-    public class ClientServiceIntegrationTest {
+    public class ClientServiceIntegrationTest 
+        :  IoCSupportedTest<ServiceModule> {
 
-        private ClientService clientService;
+        private IClientService clientService;
 
-        /*
+
         [TestInitialize]
         public void TestInitialize() {
-            clientService = new ClientService();
+            clientService = Resolve<IClientService>();
         }
-        */
+
 
         /// <summary>
         /// Testing total rows

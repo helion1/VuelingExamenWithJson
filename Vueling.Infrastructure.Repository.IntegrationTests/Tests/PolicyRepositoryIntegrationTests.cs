@@ -6,23 +6,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Vueling.Domain.Entities;
+using Vueling.Common.Framework.IntegrationTest.Layer;
+using Vueling.Infrastructure.Repository.Modules;
+using Vueling.Infrastructure.Repository.Contracts;
 
 namespace Vueling.Infrastructure.Repository.Repository.Integration.Tests {
     [TestClass()]
-    public class PolicyRepositoryIntegrationTests {
-        private PolicyRepository policyRepository;
+    public class PolicyRepositoryIntegrationTests 
+        : IoCSupportedTest<RepositoryModule> {
 
-        public PolicyRepositoryIntegrationTests(PolicyRepository policyRepository) {
-            this.policyRepository = policyRepository;
-        }
-        
+        private IPolicyRepository policyRepository;
 
-        /*
+
         [TestInitialize]
         public void TestInitialize() {
-            policyRepository = new PolicyRepository();
+            policyRepository = Resolve<IPolicyRepository>();
         }
-        */
 
 
         /// <summary>
